@@ -1,0 +1,1084 @@
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Вармонт — Металне конструкције и турбине</title>
+  <meta name="description" content="Вармонт — металне надстрешнице, индустријске турбине и челичне конструкције из Пирота. Пројектовање, израда и монтажа из једне хале од 5.200 m²." />
+  <meta name="keywords" content="Varmont, металне надстрешнице, индустријске турбине, челичне конструкције, Пирот, метална хала" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://varmont.rs/" />
+  <meta name="theme-color" content="#050607" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="sr_RS" />
+  <meta property="og:url" content="https://varmont.rs/" />
+  <meta property="og:title" content="Вармонт — Металне конструкције и турбине" />
+  <meta property="og:description" content="Вармонт — металне надстрешнице, индустријске турбине и челичне конструкције из Пирота." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80" />
+  <meta property="og:site_name" content="Вармонт" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Вармонт — Металне конструкције и турбине" />
+  <meta name="twitter:description" content="Вармонт — металне надстрешнице, индустријске турбине и челичне конструкције из Пирота." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80" />
+  <style>
+    :root{
+      --bg:#050607;
+      --card:#0f1115;
+      --muted:#9ea7b7;
+      --text:#f3f6fb;
+      --brand:#f28c28;
+      --brand2:#55c3ff;
+      --line:rgba(255,255,255,.08);
+      --shadow:0 14px 40px rgba(0,0,0,.5);
+      --radius:18px;
+      --max:1100px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--text);
+      background:
+        radial-gradient(1200px 600px at 65% -10%, rgba(85,195,255,.18), transparent 60%),
+        radial-gradient(900px 500px at 20% 0%, rgba(242,140,40,.16), transparent 55%),
+        linear-gradient(180deg, #040506, #08090c 35%, #08090c);
+    }
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:var(--max); margin:0 auto; padding:0 18px}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center;
+      gap:10px;
+      padding:12px 16px;
+      border-radius:12px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.04);
+      color:var(--text);
+      box-shadow: 0 1px 0 rgba(255,255,255,.06) inset;
+      transition:.2s ease;
+      font-weight:600;
+      cursor:pointer;
+    }
+    .btn:hover{transform:translateY(-1px); border-color:rgba(255,255,255,.16); background:rgba(255,255,255,.08)}
+    .btn.primary{
+      background:linear-gradient(135deg, rgba(242,140,40,.95), rgba(242,140,40,.6));
+      border-color: rgba(242,140,40,.45);
+      color:#2e1605;
+    }
+    .btn.primary:hover{filter:brightness(1.04)}
+    .pill{
+      display:inline-flex; gap:10px; align-items:center;
+      padding:8px 12px; border-radius:999px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.03);
+      color:var(--muted);
+      font-size:14px;
+    }
+    header{
+      position:sticky; top:0; z-index:40;
+      backdrop-filter: blur(10px);
+      background:rgba(5,6,7,.65);
+      border-bottom:1px solid var(--line);
+    }
+    .nav{
+      display:flex; align-items:center; justify-content:space-between;
+      padding:14px 0;
+      gap:14px;
+    }
+    .brand{
+      display:flex; align-items:center; gap:10px;
+      font-weight:800; letter-spacing:.2px;
+    }
+    .logo{
+      width:40px; height:40px; border-radius:12px;
+      background:
+        radial-gradient(circle at 30% 30%, rgba(255,255,255,.18), transparent 55%),
+        linear-gradient(135deg, rgba(242,140,40,1), rgba(85,195,255,.9));
+      box-shadow: var(--shadow);
+    }
+    nav ul{
+      list-style:none; margin:0; padding:0;
+      display:flex; gap:18px; align-items:center;
+    }
+    nav a{
+      color:var(--muted);
+      font-weight:600;
+      font-size:14px;
+      padding:10px 10px;
+      border-radius:10px;
+      transition:.2s;
+    }
+    nav a:hover{color:var(--text); background:rgba(255,255,255,.04)}
+    .actions{display:flex; gap:10px; align-items:center}
+    .hero{padding:44px 0 22px}
+    .heroGrid{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap:18px;
+      align-items:stretch;
+    }
+    .hcard{
+      border:1px solid var(--line);
+      background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding:22px;
+      overflow:hidden;
+      position:relative;
+    }
+    .hcard::before{
+      content:"";
+      position:absolute; inset:-2px;
+      background: radial-gradient(600px 220px at 20% 0%, rgba(242,140,40,.22), transparent 60%),
+                  radial-gradient(500px 220px at 80% 0%, rgba(85,195,255,.18), transparent 60%);
+      pointer-events:none;
+    }
+    .hcard > *{position:relative}
+    h1{
+      margin:12px 0 10px;
+      font-size: clamp(32px, 4.5vw, 54px);
+      line-height:1.05;
+      letter-spacing:-.5px;
+    }
+    .lead{color:var(--muted); font-size:16px; line-height:1.6; max-width:58ch}
+    .heroCtas{display:flex; flex-wrap:wrap; gap:10px; margin-top:16px}
+    .meta{
+      display:flex; flex-wrap:wrap; gap:10px;
+      margin-top:16px;
+    }
+    .kpiGrid{
+      display:grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap:12px;
+      height:100%;
+    }
+    .kpi{
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.03);
+      border-radius:16px;
+      padding:16px;
+      display:flex; flex-direction:column; justify-content:space-between;
+      min-height:120px;
+    }
+    .kpi strong{font-size:22px}
+    .kpi span{color:var(--muted); font-size:13px; line-height:1.4}
+    .section{padding:26px 0}
+    .section h2{font-size:22px; margin:0 0 12px; letter-spacing:-.2px}
+    .sub{color:var(--muted); margin:0 0 14px; line-height:1.6}
+    .grid3{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap:12px;
+    }
+    .card{
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.03);
+      border-radius: var(--radius);
+      padding:16px;
+      box-shadow: 0 8px 22px rgba(0,0,0,.25);
+    }
+    .serviceTitle{display:flex; align-items:center; gap:10px; margin-bottom:8px}
+    .icon{
+      width:38px; height:38px; border-radius:12px;
+      background:rgba(242,140,40,.12);
+      border:1px solid rgba(242,140,40,.25);
+      display:grid; place-items:center;
+      color:var(--brand);
+      font-weight:900;
+    }
+    .priceTable{
+      width:100%; border-collapse:collapse; overflow:hidden;
+      border-radius:16px; border:1px solid var(--line);
+      background:rgba(255,255,255,.02);
+    }
+    .priceTable th, .priceTable td{
+      padding:12px 14px; text-align:left;
+      border-bottom:1px solid var(--line);
+      font-size:14px;
+    }
+    .priceTable th{color:var(--muted); font-weight:700; background:rgba(255,255,255,.02)}
+    .priceTable tr:last-child td{border-bottom:none}
+    .tag{
+      display:inline-flex; padding:6px 10px; border-radius:999px;
+      border:1px solid var(--line);
+      color:var(--muted);
+      font-size:12px; font-weight:600;
+      background:rgba(255,255,255,.02);
+    }
+    .gallery{
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap:10px;
+      margin-top:12px;
+    }
+    .ph{
+      border:1px solid var(--line);
+      background:#050506;
+      border-radius:16px;
+      position:relative;
+      overflow:hidden;
+      min-height:130px;
+    }
+    .ph a{
+      position:absolute;
+      inset:0;
+      display:block;
+    }
+    .ph img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+    }
+    .ph.big{grid-column: span 6; aspect-ratio: 3 / 2; min-height:220px}
+    .ph.mid{grid-column: span 3; aspect-ratio: 4 / 5; min-height:180px}
+    .ph.small{grid-column: span 2; aspect-ratio: 1 / 1; min-height:140px}
+    .twoCol{display:grid; grid-template-columns: 1fr 1fr; gap:12px}
+    .review{display:flex; flex-direction:column; gap:10px}
+    .stars{letter-spacing:2px; color:var(--brand)}
+    .who{color:var(--muted); font-size:13px}
+    .footer{padding:26px 0 40px; border-top:1px solid var(--line); color:var(--muted)}
+    .footGrid{display:grid; grid-template-columns: 1.2fr .8fr; gap:12px}
+    .mini{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px}
+    .mapCard{margin-top:16px; border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow); min-height:340px; background:rgba(0,0,0,.2)}
+    .mapEmbed{width:100%; height:100%; min-height:340px; border:0; display:block}
+    .input{width:100%; padding:12px 12px; border-radius:12px; border:1px solid var(--line); background:rgba(0,0,0,.25); color:var(--text); outline:none}
+    .input:focus{border-color:rgba(242,140,40,.45)}
+    .note{font-size:12px; color:var(--muted); margin-top:10px}
+    .hideMobile{display:block}
+    .showMobile{display:none}
+    @media (max-width: 900px){
+      .heroGrid{grid-template-columns:1fr}
+      .grid3{grid-template-columns:1fr}
+      .twoCol{grid-template-columns:1fr}
+      nav ul{display:none}
+      .hideMobile{display:none}
+      .showMobile{display:inline-flex}
+      .ph.big{grid-column: span 12}
+      .ph.mid{grid-column: span 6}
+      .ph.small{grid-column: span 4}
+      .footGrid{grid-template-columns:1fr}
+    }
+    @media (max-width: 600px){
+      .wrap{padding:0 14px}
+      .hero{padding:30px 0 14px}
+      .mapCard{min-height:280px}
+      .mapEmbed{min-height:280px}
+      .actions,
+      .heroCtas,
+      .mini{flex-direction:column; align-items:stretch}
+      .actions .btn,
+      .heroCtas .btn,
+      .mini .btn{width:100%; justify-content:center}
+      .meta{flex-direction:column}
+      .pill,
+      .tag{width:100%; justify-content:center; text-align:center}
+      .gallery{gap:8px}
+      .card{padding:14px}
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://varmont.rs/#business",
+      "name": "Вармонт",
+      "description": "Вармонт производи металне надстрешнице, индустријске турбине и челичне конструкције у Пироту.",
+      "url": "https://varmont.rs/",
+      "telephone": "+381631900120",
+      "email": "prodaja@varmont.rs",
+      "priceRange": "RSD",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Индустријска зона Југ, Хала 4",
+        "addressLocality": "Пирот",
+        "postalCode": "18300",
+        "addressCountry": "RS"
+      },
+      "hasMap": "https://www.google.com/maps?q=Industrijska+zona+Pirot",
+      "sameAs": [
+        "https://wa.me/381631900120",
+        "https://www.google.com/maps?q=Industrijska+zona+Pirot"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "07:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "13:00"
+        }
+      ]
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="nav">
+        <a class="brand" href="#top" aria-label="Почетна" data-i18n-attr="aria-label:brandAriaLabel">
+          <span class="logo" aria-hidden="true"></span>
+          <span style="color:var(--brand)" data-i18n="brandName">Вармонт</span>
+        </a>
+
+        <nav class="hideMobile" aria-label="Главна навигација" data-i18n-attr="aria-label:navAriaLabel">
+          <ul>
+            <li><a href="#usluge" data-i18n="navProducts">Производи</a></li>
+            <li><a href="#cenovnik" data-i18n="navCapacity">Капацитет</a></li>
+            <li><a href="#galerija" data-i18n="navProjects">Пројекти</a></li>
+            <li><a href="#recenzije" data-i18n="navReferences">Референце</a></li>
+            <li><a href="#kontakt" data-i18n="navContact">Контакт</a></li>
+          </ul>
+        </nav>
+
+        <div class="actions">
+          <button class="btn" id="langToggle" type="button" aria-pressed="false">Latinica</button>
+          <a class="btn showMobile" href="#kontakt" data-i18n="actionMenu">Мени</a>
+          <a class="btn" href="tel:+381631900120" data-i18n="actionCall">Позови продају</a>
+          <a class="btn primary" href="#cenovnik" data-i18n="actionQuote">Затражи понуду</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <div class="heroGrid">
+          <div class="hcard">
+            <span class="pill" data-i18n="heroPill">⚙️ Инжењеринг металних система • Турбине • Надстрешнице</span>
+            <h1 data-i18n="heroTitle" data-i18n-mode="html">Челик по мери. <br/>Енергија из исте хале.</h1>
+            <p class="lead" data-i18n="heroLead">Вармонт развија и производи металне конструкције, надстрешнице и индустријске турбине у Пироту. Један тим покрива дизајн, машинску обраду и монтажу на терену.</p>
+
+            <div class="heroCtas">
+              <a class="btn primary" href="mailto:prodaja@varmont.rs" data-i18n="heroEmail">Пошаљи упит</a>
+              <a class="btn" href="#cenovnik" data-i18n="heroCapacity">Погледај капацитете</a>
+              <a class="btn" href="#galerija" data-i18n="heroProjects">Пројекти</a>
+            </div>
+
+            <div class="meta">
+              <span class="pill" data-i18n="metaAddress">📍 Индустријска зона, Пирот</span>
+              <span class="pill" data-i18n="metaHall">🏭 5.200 m² производна хала</span>
+              <span class="pill" data-i18n="metaWork">🕒 Пон–Пет: 07:00–17:00ч</span>
+              <span class="pill" data-i18n="metaPhone">📞 +381 63 190 0120</span>
+            </div>
+          </div>
+
+          <div class="kpiGrid">
+            <div class="kpi">
+              <strong data-i18n="kpiHallTitle">Комплетан погон</strong>
+              <span data-i18n="kpiHallDesc">Сечење, заваривање и пескарење у истом комплексу за бржу испоруку.</span>
+            </div>
+            <div class="kpi">
+              <strong data-i18n="kpiQualityTitle">ISO стандарди</strong>
+              <span data-i18n="kpiQualityDesc">Материјали са атестом и следљивост за сваку партију.</span>
+            </div>
+            <div class="kpi">
+              <strong data-i18n="kpiEngineersTitle">Инжењерски тим</strong>
+              <span data-i18n="kpiEngineersDesc">Пројектовање и статички прорачуни унапређују сваку конструкцију.</span>
+            </div>
+            <div class="kpi">
+              <strong data-i18n="kpiSupportTitle">24/7 подршка</strong>
+              <span data-i18n="kpiSupportDesc">Монтажне екипе и сервис за рад на више локација.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="usluge">
+      <div class="wrap">
+        <h2 data-i18n="sectionProductsTitle">Производи и услуге</h2>
+        <p class="sub" data-i18n="sectionProductsSub">Кључни системи које испоручујемо од сировине до монтаже.</p>
+
+        <div class="grid3">
+          <div class="card">
+            <div class="serviceTitle">
+              <div class="icon">⛺</div>
+              <div>
+                <strong data-i18n="productCanopyTitle">Металне надстрешнице</strong><br/>
+                <span class="tag" data-i18n="productCanopyTag">Паркинг / улази / логистика</span>
+              </div>
+            </div>
+            <p class="sub" data-i18n="productCanopyDesc">Поцинковане конструкције, комплетна статичка анализа и монтажни тимови на терену.</p>
+          </div>
+
+          <div class="card">
+            <div class="serviceTitle">
+              <div class="icon">🌀</div>
+              <div>
+                <strong data-i18n="productTurbineTitle">Индустријске турбине</strong><br/>
+                <span class="tag" data-i18n="productTurbineTag">Вентилација / енергија</span>
+              </div>
+            </div>
+            <p class="sub" data-i18n="productTurbineDesc">Роторски склопови, баланс, контролни тестови и интеграција у производне линије.</p>
+          </div>
+
+          <div class="card">
+            <div class="serviceTitle">
+              <div class="icon">⚙</div>
+              <div>
+                <strong data-i18n="productCustomTitle">Пројекти по мери</strong><br/>
+                <span class="tag" data-i18n="productCustomTag">Челичне платформе / хале</span>
+              </div>
+            </div>
+            <p class="sub" data-i18n="productCustomDesc">Комплетан EPC приступ: усклађивање са локалним прописима, план монтаже и одржавање.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="cenovnik">
+      <div class="wrap">
+        <h2 data-i18n="capacityTitle">Капацитети и рокови</h2>
+        <p class="sub" data-i18n="capacitySub">Процене за најчешће захтеве. Сваки пројекат добија детаљну понуду након техничког договора.</p>
+
+        <table class="priceTable" aria-label="Капацитети" data-i18n-attr="aria-label:capacityTableLabel">
+          <thead>
+            <tr>
+              <th data-i18n="tableSegment">Сегмент</th>
+              <th data-i18n="tableLead">Рок израде</th>
+              <th data-i18n="tableEstimate">Цена</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-i18n="segmentCanopyName">Метална надстрешница до 50 m²</td>
+              <td data-i18n="segmentCanopyDuration">14–21 дан</td>
+              <td data-i18n="segmentCanopyPrice">По пројекту</td>
+            </tr>
+            <tr>
+              <td data-i18n="segmentTurbineName">Индустријска турбина (до 250 kW)</td>
+              <td data-i18n="segmentTurbineDuration">30–45 дана</td>
+              <td data-i18n="segmentTurbinePrice">По намену</td>
+            </tr>
+            <tr>
+              <td data-i18n="segmentHallName">Челична хала 18x36 m</td>
+              <td data-i18n="segmentHallDuration">45–60 дана</td>
+              <td data-i18n="segmentHallPrice">Уговорно</td>
+            </tr>
+            <tr>
+              <td data-i18n="segmentServiceName">Сервис и монтажа</td>
+              <td data-i18n="segmentServiceDuration">По договору</td>
+              <td data-i18n="segmentServicePrice">Према спецификацији</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="note" data-i18n="capacityNote">Доступност материјала и сезонски услови утичу на рокове — јави се за ажурно стање.</p>
+      </div>
+    </section>
+
+    <section class="section" id="galerija">
+      <div class="wrap">
+        <h2 data-i18n="projectsTitle">Пројекти</h2>
+        <div class="gallery" aria-label="Пројекти" data-i18n-attr="aria-label:projectsAriaLabel">
+          <div class="ph big">
+            <a href="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80" target="_blank" rel="noreferrer">
+              <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80" alt="Челична конструкција са турбином" loading="lazy" data-i18n-attr="alt:projectAlt1" />
+            </a>
+          </div>
+          <div class="ph mid">
+            <a href="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80" target="_blank" rel="noreferrer">
+              <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80" alt="Ротор у завршној инспекцији" loading="lazy" data-i18n-attr="alt:projectAlt2" />
+            </a>
+          </div>
+          <div class="ph mid">
+            <a href="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=800&q=80" target="_blank" rel="noreferrer">
+              <img src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=800&q=80" alt="Монтажа надстрешнице на терену" loading="lazy" data-i18n-attr="alt:projectAlt3" />
+            </a>
+          </div>
+          <div class="ph small">
+            <a href="https://images.unsplash.com/photo-1503389152951-9f343605f61e?auto=format&fit=crop&w=600&q=80" target="_blank" rel="noreferrer">
+              <img src="https://images.unsplash.com/photo-1503389152951-9f343605f61e?auto=format&fit=crop&w=600&q=80" alt="Контрола заварених спојева" loading="lazy" data-i18n-attr="alt:projectAlt4" />
+            </a>
+          </div>
+          <div class="ph small">
+            <a href="https://images.unsplash.com/photo-1469478715127-7a3c784bcd45?auto=format&fit=crop&w=600&q=80" target="_blank" rel="noreferrer">
+              <img src="https://images.unsplash.com/photo-1469478715127-7a3c784bcd45?auto=format&fit=crop&w=600&q=80" alt="Складиште челика у Вармонт хали" loading="lazy" data-i18n-attr="alt:projectAlt5" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="recenzije">
+      <div class="wrap">
+        <h2 data-i18n="referencesTitle">Референце</h2>
+        <div class="twoCol">
+          <div class="card review">
+            <div class="stars">★★★★★</div>
+            <div data-i18n="reference1Text">“Вармонт је испоручио три надстрешнице пре рока и преузео целу логистику монтаже.”</div>
+            <div class="who" data-i18n="reference1Author">— Јелена М., логистика</div>
+          </div>
+          <div class="card review">
+            <div class="stars">★★★★★</div>
+            <div data-i18n="reference2Text">“Турбински склопови пролазе све наше FMEA тестове. Тим је доступан 24/7.”</div>
+            <div class="who" data-i18n="reference2Author">— Милош В., енергетика</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="kontakt">
+      <div class="wrap">
+        <h2 data-i18n="contactTitle">Контакт & локација</h2>
+        <div class="twoCol">
+          <div class="card">
+            <strong data-i18n="contactBusiness">Вармонт — Производни погон</strong>
+            <p class="sub" style="margin-top:10px" data-i18n="contactDetails" data-i18n-mode="html">
+              📍 Адреса: <span class="tag">Индустријска зона Југ, Пирот</span><br/>
+              🏭 Хала: <span class="tag">5.200 m² — мостне дизалице 10t</span><br/>
+              🕒 Радно време: <span class="tag">Пон–Пет 07:00–17:00ч</span><br/>
+              🕒 Субота: <span class="tag">08:00–13:00ч</span><br/>
+              📞 Телефон: <a class="tag" href="tel:+381631900120">+381 63 190 0120</a><br/>
+              ✉ Е-пошта: <a class="tag" href="mailto:prodaja@varmont.rs">prodaja@varmont.rs</a><br/>
+              💬 WhatsApp: <a class="tag" href="https://wa.me/381631900120" target="_blank" rel="noreferrer">пошаљи поруку</a>
+            </p>
+
+            <div class="mini">
+              <a class="btn primary" href="tel:+381631900120" data-i18n="contactPhoneCTA">Позови инжењере</a>
+              <a class="btn" href="mailto:prodaja@varmont.rs" data-i18n="contactMailCTA">Пошаљи пројекат</a>
+            </div>
+
+            <p class="note" data-i18n="contactNote">По потреби додај линк ка техничкој документацији, LinkedIn-у или каталогу.</p>
+          </div>
+
+          <div class="card">
+            <strong data-i18n="quickTitle">Брз упит</strong>
+            <p class="sub" style="margin-top:10px" data-i18n="quickDesc">Након слања отвара се WhatsApp разговор са припремљеном поруком.</p>
+
+            <form id="quickForm">
+              <label>
+                <span class="who" data-i18n="formName">Име</span>
+                <input class="input" name="name" required placeholder="нпр. Бојан" data-i18n-attr="placeholder:placeholderName" />
+              </label>
+              <div style="height:10px"></div>
+              <label>
+                <span class="who" data-i18n="formPhone">Телефон</span>
+                <input class="input" name="phone" required placeholder="+381..." />
+              </label>
+              <div style="height:10px"></div>
+              <label>
+                <span class="who" data-i18n="formMessage">Порука</span>
+                <textarea class="input" name="message" rows="4" required placeholder="Потребна је надстрешница 18м са монтажом у октобру..." data-i18n-attr="placeholder:placeholderMessage"></textarea>
+              </label>
+              <div style="height:12px"></div>
+              <button class="btn primary" type="submit" data-i18n="formSubmit">Пошаљи</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="mapCard" aria-label="Google мапа — Вармонт, Индустријска зона, Пирот">
+          <iframe
+            class="mapEmbed"
+            title="Google мапа — Вармонт, Индустријска зона, Пирот"
+            loading="lazy"
+            src="https://www.google.com/maps?q=Industrijska%20zona%20Pirot&output=embed"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footGrid">
+          <div>
+            <div class="brand">
+              <span class="logo" aria-hidden="true"></span>
+              <span style="color:var(--brand)" data-i18n="brandName">Вармонт</span>
+            </div>
+            <p class="sub" style="margin-top:10px">
+              <span data-i18n="footerServices">Металне надстрешнице • Турбине • Челичне конструкције</span><br/>
+              © <span id="y"></span> <span data-i18n="brandName">Вармонт</span>. <span data-i18n="footerRights">Сва права задржана.</span>
+            </p>
+          </div>
+          <div>
+            <p class="sub"><strong style="color:var(--text)" data-i18n="footerLinks">Брзи линкови</strong></p>
+            <div class="mini">
+              <a class="btn" href="#usluge" data-i18n="navProducts">Производи</a>
+              <a class="btn" href="#cenovnik" data-i18n="navCapacity">Капацитет</a>
+              <a class="btn" href="#galerija" data-i18n="navProjects">Пројекти</a>
+              <a class="btn" href="#kontakt" data-i18n="navContact">Контакт</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+
+    const translations = {
+      pageTitle: {
+        cyrl: "Вармонт — Металне конструкције и турбине",
+        lat: "Varmont — Metalne konstrukcije i turbine"
+      },
+      metaDescription: {
+        cyrl: "Вармонт пројектује и производи металне надстрешнице, турбине и челичне конструкције у Пироту.",
+        lat: "Varmont projektuje i proizvodi metalne nadstrešnice, turbine i čelične konstrukcije u Pirotu."
+      },
+      brandName: {
+        cyrl: "Вармонт",
+        lat: "Varmont"
+      },
+      brandAriaLabel: {
+        cyrl: "Почетна",
+        lat: "Početna"
+      },
+      navAriaLabel: {
+        cyrl: "Главна навигација",
+        lat: "Glavna navigacija"
+      },
+      navProducts: {
+        cyrl: "Производи",
+        lat: "Proizvodi"
+      },
+      navCapacity: {
+        cyrl: "Капацитет",
+        lat: "Kapacitet"
+      },
+      navProjects: {
+        cyrl: "Пројекти",
+        lat: "Projekti"
+      },
+      navReferences: {
+        cyrl: "Референце",
+        lat: "Reference"
+      },
+      navContact: {
+        cyrl: "Контакт",
+        lat: "Kontakt"
+      },
+      actionMenu: {
+        cyrl: "Мени",
+        lat: "Meni"
+      },
+      actionCall: {
+        cyrl: "Позови продају",
+        lat: "Pozovi prodaju"
+      },
+      actionQuote: {
+        cyrl: "Затражи понуду",
+        lat: "Zatraži ponudu"
+      },
+      heroPill: {
+        cyrl: "⚙️ Инжењеринг металних система • Турбине • Надстрешнице",
+        lat: "⚙️ Inženjering metalnih sistema • Turbine • Nadstrešnice"
+      },
+      heroTitle: {
+        cyrl: "Челик по мери. <br/>Енергија из исте хале.",
+        lat: "Čelik po meri. <br/>Energija iz iste hale."
+      },
+      heroLead: {
+        cyrl: "Вармонт развија и производи металне конструкције, надстрешнице и индустријске турбине у Пироту. Један тим покрива дизајн, машинску обраду и монтажу на терену.",
+        lat: "Varmont razvija i proizvodi metalne konstrukcije, nadstrešnice i industrijske turbine u Pirotu. Jedan tim pokriva dizajn, mašinsku obradu i montažu na terenu."
+      },
+      heroEmail: {
+        cyrl: "Пошаљи упит",
+        lat: "Pošalji upit"
+      },
+      heroCapacity: {
+        cyrl: "Погледај капацитете",
+        lat: "Pogledaj kapacitete"
+      },
+      heroProjects: {
+        cyrl: "Пројекти",
+        lat: "Projekti"
+      },
+      metaAddress: {
+        cyrl: "📍 Индустријска зона, Пирот",
+        lat: "📍 Industrijska zona, Pirot"
+      },
+      metaHall: {
+        cyrl: "🏭 5.200 m² производна хала",
+        lat: "🏭 5.200 m² proizvodna hala"
+      },
+      metaWork: {
+        cyrl: "🕒 Пон–Пет: 07:00–17:00ч",
+        lat: "🕒 Pon–Pet: 07:00–17:00č"
+      },
+      metaPhone: {
+        cyrl: "📞 +381 63 190 0120",
+        lat: "📞 +381 63 190 0120"
+      },
+      kpiHallTitle: {
+        cyrl: "Комплетан погон",
+        lat: "Kompletan pogon"
+      },
+      kpiHallDesc: {
+        cyrl: "Сечење, заваривање и пескарење у истом комплексу за бржу испоруку.",
+        lat: "Sečenje, zavarivanje i peskarenje u istom kompleksu za bržu isporuku."
+      },
+      kpiQualityTitle: {
+        cyrl: "ISO стандарди",
+        lat: "ISO standardi"
+      },
+      kpiQualityDesc: {
+        cyrl: "Материјали са атестом и следљивост за сваку партију.",
+        lat: "Materijali sa atestom i sledljivost za svaku partiju."
+      },
+      kpiEngineersTitle: {
+        cyrl: "Инжењерски тим",
+        lat: "Inženjerski tim"
+      },
+      kpiEngineersDesc: {
+        cyrl: "Пројектовање и статички прорачуни унапређују сваку конструкцију.",
+        lat: "Projektovanje i statički proračuni unapređuju svaku konstrukciju."
+      },
+      kpiSupportTitle: {
+        cyrl: "24/7 подршка",
+        lat: "24/7 podrška"
+      },
+      kpiSupportDesc: {
+        cyrl: "Монтажне екипе и сервис за рад на више локација.",
+        lat: "Montažne ekipe i servis za rad na više lokacija."
+      },
+      sectionProductsTitle: {
+        cyrl: "Производи и услуге",
+        lat: "Proizvodi i usluge"
+      },
+      sectionProductsSub: {
+        cyrl: "Кључни системи које испоручујемо од сировине до монтаже.",
+        lat: "Ključni sistemi koje isporučujemo od sirovine do montaže."
+      },
+      productCanopyTitle: {
+        cyrl: "Металне надстрешнице",
+        lat: "Metalne nadstrešnice"
+      },
+      productCanopyTag: {
+        cyrl: "Паркинг / улази / логистика",
+        lat: "Parking / ulazi / logistika"
+      },
+      productCanopyDesc: {
+        cyrl: "Поцинковане конструкције, комплетна статичка анализа и монтажни тимови на терену.",
+        lat: "Pocinkovane konstrukcije, kompletna statička analiza i montažni timovi na terenu."
+      },
+      productTurbineTitle: {
+        cyrl: "Индустријске турбине",
+        lat: "Industrijske turbine"
+      },
+      productTurbineTag: {
+        cyrl: "Вентилација / енергија",
+        lat: "Ventilacija / energija"
+      },
+      productTurbineDesc: {
+        cyrl: "Роторски склопови, баланс, контролни тестови и интеграција у производне линије.",
+        lat: "Rotorski sklopovi, balans, kontrolni testovi i integracija u proizvodne linije."
+      },
+      productCustomTitle: {
+        cyrl: "Пројекти по мери",
+        lat: "Projekti po meri"
+      },
+      productCustomTag: {
+        cyrl: "Челичне платформе / хале",
+        lat: "Čelične platforme / hale"
+      },
+      productCustomDesc: {
+        cyrl: "Комплетан EPC приступ: усклађивање са локалним прописима, план монтаже и одржавање.",
+        lat: "Kompletan EPC pristup: usklađivanje sa lokalnim propisima, plan montaže i održavanje."
+      },
+      capacityTitle: {
+        cyrl: "Капацитети и рокови",
+        lat: "Kapaciteti i rokovi"
+      },
+      capacitySub: {
+        cyrl: "Процене за најчешће захтеве. Сваки пројекат добија детаљну понуду након техничког договора.",
+        lat: "Procene za najčešće zahteve. Svaki projekat dobija detaljnu ponudu nakon tehničkog dogovora."
+      },
+      capacityTableLabel: {
+        cyrl: "Капацитети",
+        lat: "Kapaciteti"
+      },
+      tableSegment: {
+        cyrl: "Сегмент",
+        lat: "Segment"
+      },
+      tableLead: {
+        cyrl: "Рок израде",
+        lat: "Rok izrade"
+      },
+      tableEstimate: {
+        cyrl: "Цена",
+        lat: "Cena"
+      },
+      segmentCanopyName: {
+        cyrl: "Метална надстрешница до 50 m²",
+        lat: "Metalna nadstrešnica do 50 m²"
+      },
+      segmentCanopyDuration: {
+        cyrl: "14–21 дан",
+        lat: "14–21 dan"
+      },
+      segmentCanopyPrice: {
+        cyrl: "По пројекту",
+        lat: "Po projektu"
+      },
+      segmentTurbineName: {
+        cyrl: "Индустријска турбина (до 250 kW)",
+        lat: "Industrijska turbina (do 250 kW)"
+      },
+      segmentTurbineDuration: {
+        cyrl: "30–45 дана",
+        lat: "30–45 dana"
+      },
+      segmentTurbinePrice: {
+        cyrl: "По намену",
+        lat: "Po nameni"
+      },
+      segmentHallName: {
+        cyrl: "Челична хала 18x36 m",
+        lat: "Čelična hala 18x36 m"
+      },
+      segmentHallDuration: {
+        cyrl: "45–60 дана",
+        lat: "45–60 dana"
+      },
+      segmentHallPrice: {
+        cyrl: "Уговорно",
+        lat: "Ugovorno"
+      },
+      segmentServiceName: {
+        cyrl: "Сервис и монтажа",
+        lat: "Servis i montaža"
+      },
+      segmentServiceDuration: {
+        cyrl: "По договору",
+        lat: "Po dogovoru"
+      },
+      segmentServicePrice: {
+        cyrl: "Према спецификацији",
+        lat: "Prema specifikaciji"
+      },
+      capacityNote: {
+        cyrl: "Доступност материјала и сезонски услови утичу на рокове — јави се за ажурно стање.",
+        lat: "Dostupnost materijala i sezonski uslovi utiču na rokove — javi se za ažurno stanje."
+      },
+      projectsTitle: {
+        cyrl: "Пројекти",
+        lat: "Projekti"
+      },
+      projectsAriaLabel: {
+        cyrl: "Пројекти",
+        lat: "Projekti"
+      },
+      projectAlt1: {
+        cyrl: "Челична конструкција са турбином",
+        lat: "Čelična konstrukcija sa turbinom"
+      },
+      projectAlt2: {
+        cyrl: "Ротор у завршној инспекцији",
+        lat: "Rotor u završnoj inspekciji"
+      },
+      projectAlt3: {
+        cyrl: "Монтажа надстрешнице на терену",
+        lat: "Montaža nadstrešnice na terenu"
+      },
+      projectAlt4: {
+        cyrl: "Контрола заварених спојева",
+        lat: "Kontrola zavarenih spojeva"
+      },
+      projectAlt5: {
+        cyrl: "Складиште челика у Вармонт хали",
+        lat: "Skladište čelika u Varmont hali"
+      },
+      referencesTitle: {
+        cyrl: "Референце",
+        lat: "Reference"
+      },
+      reference1Text: {
+        cyrl: "\u201CВармонт је испоручио три надстрешнице пре рока и преузео целу логистику монтаже.\u201D",
+        lat: "\u201CVarmont je isporučio tri nadstrešnice pre roka i preuzeo celu logistiku montaže.\u201D"
+      },
+      reference1Author: {
+        cyrl: "— Јелена М., логистика",
+        lat: "— Jelena M., logistika"
+      },
+      reference2Text: {
+        cyrl: "\u201CТурбински склопови пролазе све наше FMEA тестове. Тим је доступан 24/7.\u201D",
+        lat: "\u201CTurbinski sklopovi prolaze sve naše FMEA testove. Tim je dostupan 24/7.\u201D"
+      },
+      reference2Author: {
+        cyrl: "— Милош В., енергетика",
+        lat: "— Miloš V., energetika"
+      },
+      contactTitle: {
+        cyrl: "Контакт & локација",
+        lat: "Kontakt & lokacija"
+      },
+      contactBusiness: {
+        cyrl: "Вармонт — Производни погон",
+        lat: "Varmont — Proizvodni pogon"
+      },
+      contactDetails: {
+        cyrl: "📍 Адреса: <span class=\"tag\">Индустријска зона Југ, Пирот</span><br/>🏭 Хала: <span class=\"tag\">5.200 m² — мостне дизалице 10t</span><br/>🕒 Радно време: <span class=\"tag\">Пон–Пет 07:00–17:00ч</span><br/>🕒 Субота: <span class=\"tag\">08:00–13:00ч</span><br/>📞 Телефон: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ Е-пошта: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">пошаљи поруку</a>",
+        lat: "📍 Adresa: <span class=\"tag\">Industrijska zona Jug, Pirot</span><br/>🏭 Hala: <span class=\"tag\">5.200 m² — mostne dizalice 10t</span><br/>🕒 Radno vreme: <span class=\"tag\">Pon–Pet 07:00–17:00č</span><br/>🕒 Subota: <span class=\"tag\">08:00–13:00č</span><br/>📞 Telefon: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ E-pošta: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">pošalji poruku</a>"
+      },
+      contactPhoneCTA: {
+        cyrl: "Позови инжењере",
+        lat: "Pozovi inženjere"
+      },
+      contactMailCTA: {
+        cyrl: "Пошаљи пројекат",
+        lat: "Pošalji projekat"
+      },
+      contactNote: {
+        cyrl: "По потреби додај линк ка техничкој документацији, LinkedIn-у или каталогу.",
+        lat: "Po potrebi dodaj link ka tehničkoj dokumentaciji, LinkedIn-u ili katalogu."
+      },
+      quickTitle: {
+        cyrl: "Брз упит",
+        lat: "Brz upit"
+      },
+      quickDesc: {
+        cyrl: "Након слања отвара се WhatsApp разговор са припремљеном поруком.",
+        lat: "Nakon slanja otvara se WhatsApp razgovor sa pripremljenom porukom."
+      },
+      formName: {
+        cyrl: "Име",
+        lat: "Ime"
+      },
+      placeholderName: {
+        cyrl: "нпр. Бојан",
+        lat: "npr. Bojan"
+      },
+      formPhone: {
+        cyrl: "Телефон",
+        lat: "Telefon"
+      },
+      formMessage: {
+        cyrl: "Порука",
+        lat: "Poruka"
+      },
+      placeholderMessage: {
+        cyrl: "Потребна је надстрешница 18м са монтажом у октобру...",
+        lat: "Potrebna je nadstrešnica 18m sa montažom u oktobru..."
+      },
+      formSubmit: {
+        cyrl: "Пошаљи",
+        lat: "Pošalji"
+      },
+      footerServices: {
+        cyrl: "Металне надстрешнице • Турбине • Челичне конструкције",
+        lat: "Metalne nadstrešnice • Turbine • Čelične konstrukcije"
+      },
+      footerRights: {
+        cyrl: "Сва права задржана.",
+        lat: "Sva prava zadržana."
+      },
+      footerLinks: {
+        cyrl: "Брзи линкови",
+        lat: "Brzi linkovi"
+      },
+      waGreeting: {
+        cyrl: "Здраво, ја сам",
+        lat: "Zdravo, ja sam"
+      },
+      waPhone: {
+        cyrl: "Телефон",
+        lat: "Telefon"
+      }
+    };
+
+    const langToggle = document.getElementById("langToggle");
+    const storedLang = localStorage.getItem("preferredLang");
+    let currentLang = storedLang === "lat" ? "lat" : "cyrl";
+
+    function applyLanguage(lang){
+      const resolved = lang === "lat" ? "lat" : "cyrl";
+      document.documentElement.lang = resolved === "cyrl" ? "sr" : "sr-Latn";
+      document.querySelectorAll("[data-i18n]").forEach((el) => {
+        const key = el.dataset.i18n;
+        const mode = el.dataset.i18nMode === "html" ? "html" : "text";
+        const translation = translations[key]?.[resolved];
+        if(!translation) return;
+        if(mode === "html"){
+          el.innerHTML = translation;
+        } else {
+          el.textContent = translation;
+        }
+      });
+      document.querySelectorAll("[data-i18n-attr]").forEach((el) => {
+        const pairs = el.dataset.i18nAttr.split(",").map((pair) => pair.trim()).filter(Boolean);
+        pairs.forEach((pair) => {
+          const [attr, key] = pair.split(":").map((part) => part.trim());
+          if(!attr || !key) return;
+          const translation = translations[key]?.[resolved];
+          if(translation !== undefined){
+            el.setAttribute(attr, translation);
+          }
+        });
+      });
+      document.title = translations.pageTitle[resolved];
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if(metaDesc){
+        metaDesc.setAttribute("content", translations.metaDescription[resolved]);
+      }
+      const ogTitle = document.querySelector('meta[property="og:title"]');
+      if(ogTitle){
+        ogTitle.setAttribute("content", translations.pageTitle[resolved]);
+      }
+      const ogDesc = document.querySelector('meta[property="og:description"]');
+      if(ogDesc){
+        ogDesc.setAttribute("content", translations.metaDescription[resolved]);
+      }
+      const twTitle = document.querySelector('meta[name="twitter:title"]');
+      if(twTitle){
+        twTitle.setAttribute("content", translations.pageTitle[resolved]);
+      }
+      const twDesc = document.querySelector('meta[name="twitter:description"]');
+      if(twDesc){
+        twDesc.setAttribute("content", translations.metaDescription[resolved]);
+      }
+      if(langToggle){
+        if(resolved === "cyrl"){
+          langToggle.textContent = "Latinica";
+          langToggle.setAttribute("aria-pressed", "false");
+        } else {
+          langToggle.textContent = "Ћирилица";
+          langToggle.setAttribute("aria-pressed", "true");
+        }
+      }
+      localStorage.setItem("preferredLang", resolved);
+      currentLang = resolved;
+    }
+
+    applyLanguage(currentLang);
+
+    if(langToggle){
+      langToggle.addEventListener("click", () => {
+        const next = currentLang === "cyrl" ? "lat" : "cyrl";
+        applyLanguage(next);
+      });
+    }
+
+    const quickForm = document.getElementById("quickForm");
+    if (quickForm) {
+      quickForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const name = quickForm.elements["name"].value.trim();
+        const phone = quickForm.elements["phone"].value.trim();
+        const message = quickForm.elements["message"].value.trim();
+        const greeting = translations.waGreeting[currentLang] || translations.waGreeting.cyrl;
+        const phoneLabel = translations.waPhone[currentLang] || translations.waPhone.cyrl;
+        const composed = [
+          `${greeting} ${name}.`,
+          `${phoneLabel}: ${phone}.`,
+          message
+        ].filter(Boolean).join("\n");
+        const url = `https://wa.me/381631900120?text=${encodeURIComponent(composed)}`;
+        window.open(url, "_blank", "noopener");
+        quickForm.reset();
+      });
+    }
+  </script>
+</body>
+</html>
