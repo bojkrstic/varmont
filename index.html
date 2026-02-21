@@ -452,9 +452,10 @@
       .list{grid-template-columns:1fr}
       nav ul{display:none}
       .mobileBtn{display:inline-flex}
-      .ph.big{grid-column: span 12}
-      .ph.mid{grid-column: span 6}
-      .ph.small{grid-column: span 4}
+      .gallery{grid-template-columns:repeat(6, 1fr)}
+      .ph.big{grid-column: span 6}
+      .ph.mid{grid-column: span 3}
+      .ph.small{grid-column: span 3}
       .footGrid{grid-template-columns:1fr}
       .ctaBand{flex-direction:column; align-items:flex-start}
       .ctaBand .ctaBtns{justify-content:flex-start}
@@ -463,12 +464,28 @@
       .wrap{padding:0 14px}
       .hero{padding:18px 0 12px}
       .heroInner{padding:16px}
-      .actions{gap:8px}
-      .btn{width:auto}
+      .nav{flex-direction:column; align-items:flex-start; gap:10px}
+      .actions{
+        gap:8px;
+        width:100%;
+        flex-wrap:wrap;
+        justify-content:flex-start;
+      }
+      .langSwitcher{width:100%}
+      .langBtn{width:100%; justify-content:center}
+      .actions .mobileBtn{flex:1 1 100%}
+      .actions .btn{
+        width:100%;
+        justify-content:center;
+        flex:1 1 calc(50% - 8px);
+      }
       .heroCtas, .mini{flex-direction:column; align-items:stretch}
       .heroCtas .btn, .mini .btn{width:100%}
+      .kpiGrid{grid-template-columns:1fr}
       .meta{flex-direction:column}
       .pill, .tag{width:100%; justify-content:center; text-align:center}
+      .gallery{grid-template-columns:1fr}
+      .ph.big, .ph.mid, .ph.small{grid-column:span 1}
       .mapCard{min-height:280px}
       .mapEmbed{min-height:280px}
     }
@@ -488,15 +505,15 @@
     "image": "https://images.unsplash.com/photo-1541976590-713941681591?auto=format&fit=crop&w=1400&q=80",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Улица Српских Владара 431",
+      "streetAddress": "Улица Српских владара 431",
       "addressLocality": "Пирот",
       "postalCode": "18300",
       "addressCountry": "RS"
     },
-    "hasMap": "https://www.google.com/maps?q=Varmont+(Ulica+Srpskih+Vladara+431,+18300+Pirot,+Serbia)",
+    "hasMap": "https://www.google.com/maps?q=Varmont+(Ulica+Srpskih+vladara+431,+18300+Pirot,+Serbia)",
     "sameAs": [
       "https://wa.me/381631900120",
-      "https://www.google.com/maps?q=Varmont+(Ulica+Srpskih+Vladara+431,+18300+Pirot,+Serbia)"
+      "https://www.google.com/maps?q=Varmont+(Ulica+Srpskih+vladara+431,+18300+Pirot,+Serbia)"
     ]
   }
   </script>
@@ -908,7 +925,7 @@
           <div class="card">
             <strong data-i18n="contactBusiness">Вармонт — Производни погон</strong>
             <p class="sub" style="margin-top:10px" data-i18n="contactDetails" data-i18n-mode="html">
-              📍 Адреса: <span class="tag">Улица Српских Владара 431, Пирот</span><br/>
+              📍 Адреса: <span class="tag">Улица Српских владара 431, Пирот</span><br/>
               🏭 Хала: <span class="tag">5.200 m² — мостне дизалице 10t</span><br/>
               🕒 Радно време: <span class="tag">Пон–Пет 07:00–17:00ч</span><br/>
               🕒 Субота: <span class="tag">08:00–13:00ч</span><br/>
@@ -954,12 +971,12 @@
           </div>
         </div>
 
-        <div class="mapCard" aria-label="Google мапа — Вармонт, Улица Српских Владара 431, Пирот">
+        <div class="mapCard" aria-label="Google мапа — Вармонт, Улица Српских владара 431, Пирот">
           <iframe
             class="mapEmbed"
-            title="Google мапа — Вармонт, Улица Српских Владара 431, Пирот"
+            title="Google мапа — Вармонт, Улица Српских владара 431, Пирот"
             loading="lazy"
-            src="https://www.google.com/maps?q=Varmont+%28Ulica+Srpskih+Vladara+431,+18300+Pirot,+Serbia%29&output=embed"
+            src="https://www.google.com/maps?q=Varmont+%28Ulica+Srpskih+vladara+431,+18300+Pirot,+Serbia%29&output=embed"
             allowfullscreen
             referrerpolicy="no-referrer-when-downgrade">
           </iframe>
@@ -1071,7 +1088,7 @@
       heroCapacity: { cyrl:"Капацитети", lat:"Kapaciteti", en:"Capacity", de:"Kapazitäten" },
       heroProjects: { cyrl:"Погледај пројекте", lat:"Pogledaj projekte", en:"See projects", de:"Projekte ansehen" },
 
-      metaAddress: { cyrl:"📍 Улица Српских Владара 431, Пирот", lat:"📍 Ulica Srpskih Vladara 431, Pirot", en:"📍 Srpskih Vladara St. 431, Pirot", de:"📍 Srpskih Vladara Straße 431, Pirot" },
+      metaAddress: { cyrl:"📍 Улица Српских владара 431, Пирот", lat:"📍 Ulica Srpskih vladara 431, Pirot", en:"📍 Ulica Srpskih vladara 431, Pirot", de:"📍 Ulica Srpskih vladara 431, Pirot" },
       metaHall: { cyrl:"🏭 5.200 m² производна хала", lat:"🏭 5.200 m² proizvodna hala", en:"🏭 5,200 m² production hall", de:"🏭 5.200 m² Produktionshalle" },
       metaCrane: { cyrl:"🏗 Мостне дизалице до 10t", lat:"🏗 Mostne dizalice do 10t", en:"🏗 Bridge cranes up to 10t", de:"🏗 Brückenkrane bis 10 t" },
       metaPhone: { cyrl:"📞 +381 63 190 0120", lat:"📞 +381 63 190 0120", en:"📞 +381 63 190 0120", de:"📞 +381 63 190 0120" },
@@ -1323,10 +1340,10 @@
       contactTitle:{ cyrl:"Контакт & локација", lat:"Kontakt & lokacija", en:"Contact & location", de:"Kontakt & Standort" },
       contactBusiness:{ cyrl:"Вармонт — Производни погон", lat:"Varmont — Proizvodni pogon", en:"Varmont — Production plant", de:"Varmont — Produktionswerk" },
       contactDetails:{
-        cyrl:"📍 Адреса: <span class=\"tag\">Улица Српских Владара 431, Пирот</span><br/>🏭 Хала: <span class=\"tag\">5.200 m² — мостне дизалице 10t</span><br/>🕒 Радно време: <span class=\"tag\">Пон–Пет 07:00–17:00ч</span><br/>🕒 Субота: <span class=\"tag\">08:00–13:00ч</span><br/>📞 Телефон: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ Е-пошта: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">пошаљи поруку</a>",
-        lat:"📍 Adresa: <span class=\"tag\">Ulica Srpskih Vladara 431, Pirot</span><br/>🏭 Hala: <span class=\"tag\">5.200 m² — mostne dizalice 10t</span><br/>🕒 Radno vreme: <span class=\"tag\">Pon–Pet 07:00–17:00č</span><br/>🕒 Subota: <span class=\"tag\">08:00–13:00č</span><br/>📞 Telefon: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ E-pošta: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">pošalji poruku</a>",
-        en:"📍 Address: <span class=\"tag\">Srpskih Vladara St. 431, Pirot</span><br/>🏭 Hall: <span class=\"tag\">5,200 m² — bridge cranes 10t</span><br/>🕒 Working hours: <span class=\"tag\">Mon–Fri 07:00–17:00</span><br/>🕒 Saturday: <span class=\"tag\">08:00–13:00</span><br/>📞 Phone: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ Email: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">send a message</a>",
-        de:"📍 Adresse: <span class=\"tag\">Srpskih Vladara Straße 431, Pirot</span><br/>🏭 Halle: <span class=\"tag\">5.200 m² — Brückenkrane 10 t</span><br/>🕒 Arbeitszeit: <span class=\"tag\">Mo–Fr 07:00–17:00</span><br/>🕒 Samstag: <span class=\"tag\">08:00–13:00</span><br/>📞 Telefon: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ E-Mail: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">Nachricht senden</a>"
+        cyrl:"📍 Адреса: <span class=\"tag\">Улица Српских владара 431, Пирот</span><br/>🏭 Хала: <span class=\"tag\">5.200 m² — мостне дизалице 10t</span><br/>🕒 Радно време: <span class=\"tag\">Пон–Пет 07:00–17:00ч</span><br/>🕒 Субота: <span class=\"tag\">08:00–13:00ч</span><br/>📞 Телефон: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ Е-пошта: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">пошаљи поруку</a>",
+        lat:"📍 Adresa: <span class=\"tag\">Ulica Srpskih vladara 431, Pirot</span><br/>🏭 Hala: <span class=\"tag\">5.200 m² — mostne dizalice 10t</span><br/>🕒 Radno vreme: <span class=\"tag\">Pon–Pet 07:00–17:00č</span><br/>🕒 Subota: <span class=\"tag\">08:00–13:00č</span><br/>📞 Telefon: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ E-pošta: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">pošalji poruku</a>",
+        en:"📍 Address: <span class=\"tag\">Ulica Srpskih vladara 431, Pirot</span><br/>🏭 Hall: <span class=\"tag\">5,200 m² — bridge cranes 10t</span><br/>🕒 Working hours: <span class=\"tag\">Mon–Fri 07:00–17:00</span><br/>🕒 Saturday: <span class=\"tag\">08:00–13:00</span><br/>📞 Phone: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ Email: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">send a message</a>",
+        de:"📍 Adresse: <span class=\"tag\">Ulica Srpskih vladara 431, Pirot</span><br/>🏭 Halle: <span class=\"tag\">5.200 m² — Brückenkrane 10 t</span><br/>🕒 Arbeitszeit: <span class=\"tag\">Mo–Fr 07:00–17:00</span><br/>🕒 Samstag: <span class=\"tag\">08:00–13:00</span><br/>📞 Telefon: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ E-Mail: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">Nachricht senden</a>"
       },
       contactPhoneCTA:{ cyrl:"Позови", lat:"Pozovi", en:"Call", de:"Anrufen" },
       contactMailCTA:{ cyrl:"Пошаљи пројекат", lat:"Pošalji projekat", en:"Send project", de:"Projekt senden" },
