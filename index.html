@@ -114,50 +114,37 @@
   <main id="top">
     <section class="hero">
       <div class="wrap">
-        <div class="heroShell">
-          <div class="heroBg" aria-hidden="true"></div>
-
-          <div class="heroInner">
-            <div>
-              <span class="pill" data-i18n="heroPill">⚙️ Професионално заваривање • Производња • Монтажа</span>
-              <h1 data-i18n="heroTitle" data-i18n-mode="html">Стручно и поуздано <br/>заваривање.</h1>
-              <p class="lead" data-i18n="heroLead">
-                Вармонт из Пирота пружа све врсте заваривања у радионици и на терену, као и комплетну услугу
-                израде, демонтаже, монтаже и репаратурног машинског одржавања.
-              </p>
-
-              <div class="heroCtas">
-                <a class="btn primary" href="mailto:prodaja@varmont.rs" data-i18n="heroEmail">Пошаљи упит</a>
-                <a class="btn" href="#kapaciteti" data-i18n="heroCapacity">Капацитети</a>
-                <a class="btn" href="#projekti" data-i18n="heroProjects">Погледај пројекте</a>
-              </div>
-
-              <div class="meta">
-                <span class="pill" data-i18n="metaAddress">📍 Индустријска зона, Пирот</span>
-                <span class="pill" data-i18n="metaHall">🏭 5.200 m² производна хала</span>
-                <span class="pill" data-i18n="metaCrane">🏗 Мостне дизалице до 10t</span>
-                <span class="pill" data-i18n="metaPhone">📞 +381 63 190 0120</span>
-              </div>
+        <div class="heroCarousel" aria-label="Вармонт — главне услуге">
+          <article class="heroSlide is-active" style="--slide-image:url('assets/hero-welding.jpg')">
+            <div class="heroInner">
+              <span class="pill">Професионално заваривање</span>
+              <h1>Стручно и поуздано <br/>заваривање.</h1>
+              <p class="lead">TIG, MIG/MAG, REL и EPP поступци — у радионици и на терену.</p>
+              <div class="heroCtas"><a class="btn primary" href="mailto:prodaja@varmont.rs">Пошаљи упит</a><a class="btn" href="#usluge">Наше услуге</a></div>
             </div>
-
-            <div class="kpiGrid">
-              <div class="kpi">
-                <strong data-i18n="kpi1Title">Пројектовање</strong>
-                <span data-i18n="kpi1Desc">Статика, модели, техничка документација и оптимизација материјала.</span>
-              </div>
-              <div class="kpi">
-                <strong data-i18n="kpi2Title">Производња</strong>
-                <span data-i18n="kpi2Desc">Сечење, заваривање, машинска обрада и контроле квалитета.</span>
-              </div>
-              <div class="kpi">
-                <strong data-i18n="kpi3Title">Монтажа</strong>
-                <span data-i18n="kpi3Desc">Организација терена, транспорт, дизалице и пуштање у рад.</span>
-              </div>
-              <div class="kpi">
-                <strong data-i18n="kpi4Title">Сервис</strong>
-                <span data-i18n="kpi4Desc">Одржавање, поправке и брза реакција за индустријске системе.</span>
-              </div>
+          </article>
+          <article class="heroSlide" style="--slide-image:url('assets/turbine.jpg')">
+            <div class="heroInner">
+              <span class="pill">Индустријски склопови</span>
+              <h1>Израда и обнова <br/>кључних компоненти.</h1>
+              <p class="lead">Радови на турбинама, машинским деловима, цевоводима и индустријској опреми.</p>
+              <div class="heroCtas"><a class="btn primary" href="#projekti">Погледај радове</a><a class="btn" href="#kontakt">Контакт</a></div>
             </div>
+          </article>
+          <article class="heroSlide" style="--slide-image:url('assets/valjara.jpg')">
+            <div class="heroInner">
+              <span class="pill">Монтажа и одржавање</span>
+              <h1>Један партнер <br/>од захтева до решења.</h1>
+              <p class="lead">Демонтажа, монтажа, дислокација машина и репаратурно машинско одржавање.</p>
+              <div class="heroCtas"><a class="btn primary" href="#kontakt">Затражи понуду</a><a class="btn" href="#kapaciteti">Капацитети</a></div>
+            </div>
+          </article>
+          <button class="heroArrow heroArrowPrev" type="button" aria-label="Prethodni slajd">‹</button>
+          <button class="heroArrow heroArrowNext" type="button" aria-label="Sledeći slajd">›</button>
+          <div class="heroDots" aria-label="Izbor slajda">
+            <button class="is-active" type="button" aria-label="Slajd 1"></button>
+            <button type="button" aria-label="Slajd 2"></button>
+            <button type="button" aria-label="Slajd 3"></button>
           </div>
         </div>
       </div>

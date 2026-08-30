@@ -176,3 +176,40 @@
         quickForm.reset();
       });
     }
+
+    // Hero karusel
+    const carousel = document.querySelector(".heroCarousel");
+    if (carousel) {
+      const slides = [...carousel.querySelectorAll(".heroSlide")];
+      const dots = [...carousel.querySelectorAll(".heroDots button")];
+      const previous = carousel.querySelector(".heroArrowPrev");
+      const next = carousel.querySelector(".heroArrowNext");
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      let activeSlide = 0;
+      let rotation;
+
+      const showSlide = (index) => {
+        activeSlide = (index + slides.length) % slides.length;
+        slides.forEach((slide, slideIndex) => slide.classList.toggle("is-active", slideIndex === activeSlide));
+        dots.forEach((dot, dotIndex) => {
+          const isActive = dotIndex === activeSlide;
+          dot.classList.toggle("is-active", isActive);
+          dot.setAttribute("aria-current", isActive ? "true" : "false");
+        });
+      };
+      const stopRotation = () => window.clearInterval(rotation);
+      const startRotation = () => {
+        if (!reducedMotion) rotation = window.setInterval(() => showSlide(activeSlide + 1), 6000);
+      };
+      const restartRotation = () => { stopRotation(); startRotation(); };
+
+      previous?.addEventListener("click", () => { showSlide(activeSlide - 1); restartRotation(); });
+      next?.addEventListener("click", () => { showSlide(activeSlide + 1); restartRotation(); });
+      dots.forEach((dot, index) => dot.addEventListener("click", () => { showSlide(index); restartRotation(); }));
+      carousel.addEventListener("mouseenter", stopRotation);
+      carousel.addEventListener("mouseleave", startRotation);
+      carousel.addEventListener("focusin", stopRotation);
+      carousel.addEventListener("focusout", startRotation);
+      showSlide(0);
+      startRotation();
+    }

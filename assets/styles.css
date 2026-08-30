@@ -479,3 +479,16 @@
     .grid3{gap:0}.card,.era{border:0;border-radius:0;box-shadow:none;background:#fff}.svc{border-right:1px solid #c8c8c8}.svc:last-child{border-right:0}.svcTop{justify-content:center;text-align:center;min-height:76px}.svcBody{text-align:center}.icon{border-radius:0;background:#162f82}.svcImg{height:190px}
     .projectHistory{gap:34px}.era{padding:0}.eraHeader{text-align:center;align-items:center}.eraBadge{border-radius:0;background:#162f82;color:#fff}.gallery{gap:5px}.ph{border-radius:0}.ctaBand{border-radius:0;background:#162f82}.mapCard{border-radius:0}.footer{background:#191919;border:0;color:#cfcfcf;padding:28px 0}.footer .btn{border-radius:0}
     @media (max-width: 760px){.actions{position:static;margin:8px 0 10px}.nav{padding:4px 12px 10px}.heroInner{min-height:440px;padding:62px 18px 30px}.grid3{gap:12px}.svc{border:0}}
+
+    /* Hero karusel */
+    .heroCarousel{position:relative;min-height:430px;overflow:hidden;background:#111}
+    .heroSlide{position:absolute;inset:0;display:block;opacity:0;visibility:hidden;transition:opacity .7s ease,visibility .7s ease;background-image:linear-gradient(90deg,rgba(0,22,70,.68),rgba(0,0,0,.08) 66%),var(--slide-image);background-size:cover;background-position:center}
+    .heroSlide.is-active{position:relative;opacity:1;visibility:visible}
+    .heroSlide .heroInner{position:relative;z-index:1}
+    .heroArrow{position:absolute;top:50%;z-index:2;width:46px;height:46px;transform:translateY(-50%);border:1px solid rgba(255,255,255,.65);background:rgba(0,0,0,.22);color:#fff;font:300 42px/36px Arial;cursor:pointer;transition:.2s}
+    .heroArrow:hover{background:#162f82;border-color:#162f82}.heroArrowPrev{left:20px}.heroArrowNext{right:20px}
+    .heroDots{position:absolute;z-index:2;bottom:20px;left:50%;display:flex;gap:9px;transform:translateX(-50%)}
+    .heroDots button{width:34px;height:4px;padding:0;border:0;background:rgba(255,255,255,.5);cursor:pointer}.heroDots button.is-active{background:#fff}
+    .heroSlide .pill{background:#162f82;border:0;border-radius:0;color:#fff}.heroSlide h1{display:table;max-width:620px;margin:12px 0;padding:8px 12px;background:rgba(22,47,130,.91);color:#fff;font-size:clamp(32px,4vw,51px)}
+    .heroSlide .lead{max-width:600px;padding:9px 12px;background:rgba(255,255,255,.88);color:#252525}.heroSlide .heroCtas .btn{border-radius:0}
+    @media (max-width:760px){.heroCarousel{min-height:440px}.heroArrow{width:36px;height:40px;font-size:34px}.heroArrowPrev{left:8px}.heroArrowNext{right:8px}.heroDots{bottom:12px}}
