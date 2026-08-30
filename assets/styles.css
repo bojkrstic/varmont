@@ -511,7 +511,7 @@
     header::before{display:none}
     .nav{max-width:1320px;margin:0 auto;flex-direction:row;min-height:90px;padding:10px 28px;gap:24px}
     .brand{flex:0 0 auto}.brand > span:not(.logo){display:none}
-    .logo{width:164px;height:66px;background-position:left center;filter:drop-shadow(0 1px 1px rgba(255,255,255,.32))}
+    .logo{width:164px;height:66px;background-position:left center}
     nav{order:0;margin-left:auto}nav ul{display:flex;align-items:center}
     nav a{color:#eee8df;padding:11px 13px;font-size:11px;font-weight:800;letter-spacing:.09em;text-transform:uppercase}
     nav a:hover{color:#e7a868;background:transparent}
