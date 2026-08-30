@@ -507,7 +507,7 @@
     @media (max-width:600px){.langSwitcher{right:12px;bottom:12px}.langSwitcher .langMenu{min-width:0}.langSwitcher .langMenu button{padding:9px 9px}}
 
     /* Zaglavlje: kompaktan raspored po uzoru na Crnu Kobru. */
-    header{background:#1f1c1a;color:#fff}
+    header{background:#1f1c1a;color:#fff;backdrop-filter:none}
     header::before{display:none}
     .nav{max-width:1320px;margin:0 auto;flex-direction:row;min-height:90px;padding:10px 28px;gap:24px}
     .brand{flex:0 0 auto}.brand > span:not(.logo){display:none}
@@ -521,3 +521,30 @@
     .actions .primary{background:#a4461e;border-color:#a4461e;color:#fff}
     @media (max-width:980px){.nav{min-height:76px;padding:8px 18px}.logo{width:142px;height:58px}.actions{margin-left:auto}.actions > a.btn.primary{display:none}}
     @media (max-width:600px){.nav{align-items:center;flex-direction:row;padding:8px 14px}.logo{width:130px;height:54px}.actions{width:auto}.actions .mobileBtn{width:auto;flex:auto}.actions .btn{width:auto;flex:auto}}
+
+    /* Završna mobilna optimizacija. */
+    @media (max-width:600px){
+      html,body{max-width:100%;overflow-x:hidden}
+      header{min-height:70px}
+      .nav{min-height:70px;padding:8px 14px;gap:10px}
+      .logo{width:108px;height:52px}
+      nav ul{display:none!important}
+      .actions{margin-left:auto;gap:0}
+      .actions > a.btn{display:none!important}
+      .actions .mobileBtn{display:inline-flex!important;width:42px!important;height:42px;padding:0!important;border:1px solid rgba(255,255,255,.38);background:transparent;color:transparent;font-size:0}
+      .actions .mobileBtn::after{content:"☰";color:#fff;font-size:22px;line-height:1}
+      .heroCarousel,.heroSlide .heroInner{min-height:560px}
+      .heroSlide .heroInner{padding:76px 40px 54px 20px;display:flex;flex-direction:column;justify-content:center}
+      .heroSlide .pill{align-self:flex-start;font-size:12px}
+      .heroSlide h1{max-width:340px;margin:14px 0;font-size:clamp(43px,12vw,52px);line-height:.94}
+      .heroSlide .lead{max-width:315px;font-size:17px;line-height:1.52}
+      .heroSlide .heroCtas{width:100%;margin-top:18px;gap:9px}
+      .heroSlide .heroCtas .btn{width:100%;min-height:48px}
+      .heroArrow{width:34px;height:42px}.heroArrowPrev{left:8px}.heroArrowNext{right:8px}
+      .heroDots{bottom:16px}
+      .section{padding:42px 0}.section h2{font-size:29px}
+      .section > .wrap > .sub{font-size:15px;line-height:1.65}
+      .svcTop{min-height:66px}.svcImg{height:210px}
+      .card{min-width:0}.ctaBand{padding:22px}.ctaBand strong{font-size:20px}
+      .input{font-size:16px}.mapCard,.mapEmbed{min-height:260px}
+    }
