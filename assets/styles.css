@@ -497,9 +497,25 @@
     @media (max-width:760px){.heroCarousel{min-height:440px}.heroArrow{width:36px;height:40px;font-size:34px}.heroArrowPrev{left:8px}.heroArrowNext{right:8px}.heroDots{bottom:12px}}
 
     /* Jezička traka prema obrascu sa Crne Kobre: stalno dostupni direktni izbori. */
-    .langSwitcher{position:fixed;right:18px;bottom:18px;left:auto;top:auto;z-index:150;width:auto!important;transform:none;display:flex;background:#1f1c1a;border:1px solid rgba(255,255,255,.22);box-shadow:0 8px 25px rgba(0,0,0,.2)}
+    .langSwitcher{position:fixed!important;right:18px!important;bottom:18px!important;left:auto!important;top:auto!important;z-index:150;width:auto!important;transform:none;display:flex;background:#1f1c1a;border:1px solid rgba(255,255,255,.22);box-shadow:0 8px 25px rgba(0,0,0,.2)}
     .langSwitcher .langBtn{display:none}
     .langSwitcher .langMenu{position:static;display:flex;flex-direction:row;gap:0;min-width:0;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;opacity:1;pointer-events:auto;transform:none}
     .langSwitcher .langMenu button{width:auto;padding:10px 11px;border-radius:0;background:transparent;color:#fff;text-align:center;font-size:10px;letter-spacing:.08em;font-weight:700}
     .langSwitcher .langMenu button:hover,.langSwitcher .langMenu button.active{background:#a4461e;color:#fff}
     @media (max-width:600px){.langSwitcher{right:12px;bottom:12px}.langSwitcher .langMenu{min-width:0}.langSwitcher .langMenu button{padding:9px 9px}}
+
+    /* Zaglavlje: kompaktan raspored po uzoru na Crnu Kobru. */
+    header{background:#1f1c1a;color:#fff}
+    header::before{display:none}
+    .nav{max-width:1320px;margin:0 auto;flex-direction:row;min-height:90px;padding:10px 28px;gap:24px}
+    .brand{flex:0 0 auto}.brand > span:not(.logo){display:none}
+    .logo{width:164px;height:66px;background-position:left center}
+    nav{order:0;margin-left:auto}nav ul{display:flex;align-items:center}
+    nav a{color:#e6e0d8;padding:11px 13px;font-size:11px;font-weight:800;letter-spacing:.09em;text-transform:uppercase}
+    nav a:hover{color:#fff;background:transparent}
+    .actions{position:static;margin:0;gap:8px;width:auto;flex-wrap:nowrap}
+    .actions .btn{width:auto;padding:11px 13px;border-radius:0;font-size:10px;letter-spacing:.08em;text-transform:uppercase}
+    .actions > a.btn:not(.primary){display:none}
+    .actions .primary{background:#a4461e;border-color:#a4461e;color:#fff}
+    @media (max-width:980px){.nav{min-height:76px;padding:8px 18px}.logo{width:142px;height:58px}.actions{margin-left:auto}.actions > a.btn.primary{display:none}}
+    @media (max-width:600px){.nav{align-items:center;flex-direction:row;padding:8px 14px}.logo{width:130px;height:54px}.actions{width:auto}.actions .mobileBtn{width:auto;flex:auto}.actions .btn{width:auto;flex:auto}}
