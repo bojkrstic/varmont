@@ -507,14 +507,14 @@
     @media (max-width:600px){.langSwitcher{right:12px;bottom:12px}.langSwitcher .langMenu{min-width:0}.langSwitcher .langMenu button{padding:9px 9px}}
 
     /* Zaglavlje: kompaktan raspored po uzoru na Crnu Kobru. */
-    header{background:#e8e1d7;color:#292522;backdrop-filter:none;border-bottom:1px solid rgba(45,36,31,.16)}
+    header{background:#1f1c1a;color:#fff;backdrop-filter:none;border-bottom:1px solid rgba(255,255,255,.10)}
     header::before{display:none}
     .nav{max-width:1320px;margin:0 auto;flex-direction:row;min-height:90px;padding:10px 28px;gap:24px}
     .brand{flex:0 0 auto}.brand > span:not(.logo){display:none}
-    .logo{width:164px;height:66px;background-position:left center}
+    .logo{width:164px;height:66px;background-position:left center;filter:drop-shadow(0 1px 1px rgba(255,255,255,.32))}
     nav{order:0;margin-left:auto}nav ul{display:flex;align-items:center}
-    nav a{color:#3a312c;padding:11px 13px;font-size:11px;font-weight:800;letter-spacing:.09em;text-transform:uppercase}
-    nav a:hover{color:#a4461e;background:transparent}
+    nav a{color:#eee8df;padding:11px 13px;font-size:11px;font-weight:800;letter-spacing:.09em;text-transform:uppercase}
+    nav a:hover{color:#e7a868;background:transparent}
     .actions{position:static;margin:0;gap:8px;width:auto;flex-wrap:nowrap}
     .actions .btn{width:auto;padding:11px 13px;border-radius:0;font-size:10px;letter-spacing:.08em;text-transform:uppercase}
     .actions > a.btn:not(.primary){display:none}
@@ -531,8 +531,8 @@
       nav ul{display:none!important}
       .actions{margin-left:auto;gap:0}
       .actions > a.btn{display:none!important}
-      .actions .mobileBtn{display:inline-flex!important;width:42px!important;height:42px;padding:0!important;border:1px solid rgba(45,36,31,.38);background:transparent;color:transparent;font-size:0}
-      .actions .mobileBtn::after{content:"☰";color:#292522;font-size:22px;line-height:1}
+      .actions .mobileBtn{display:inline-flex!important;width:42px!important;height:42px;padding:0!important;border:1px solid rgba(255,255,255,.38);background:transparent;color:transparent;font-size:0}
+      .actions .mobileBtn::after{content:"☰";color:#fff;font-size:22px;line-height:1}
       .heroCarousel,.heroSlide .heroInner{min-height:560px}
       .heroSlide .heroInner{padding:76px 40px 54px 20px;display:flex;flex-direction:column;justify-content:center}
       .heroSlide .pill{align-self:flex-start;font-size:12px}
