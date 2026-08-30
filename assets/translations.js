@@ -47,6 +47,26 @@
       heroCapacity: { cyrl:"Капацитети", lat:"Kapaciteti", en:"Capacity", de:"Kapazitäten" },
       heroProjects: { cyrl:"Погледај пројекте", lat:"Pogledaj projekte", en:"See projects", de:"Projekte ansehen" },
 
+      slide1Pill: { cyrl:"Професионално заваривање", lat:"Profesionalno zavarivanje", en:"Professional welding", de:"Professionelles Schweißen" },
+      slide1Title: { cyrl:"Стручно и поуздано <br/>заваривање.", lat:"Stručno i pouzdano <br/>zavarivanje.", en:"Skilled and reliable <br/>welding.", de:"Fachgerechtes und zuverlässiges <br/>Schweißen." },
+      slide1Lead: { cyrl:"TIG, MIG/MAG, REL и EPP поступци — у радионици и на терену.", lat:"TIG, MIG/MAG, REL i EPP postupci — u radionici i na terenu.", en:"TIG, MIG/MAG, REL and EPP processes — in the workshop and on site.", de:"TIG-, MIG/MAG-, REL- und EPP-Verfahren — in der Werkstatt und vor Ort." },
+      slide1Primary: { cyrl:"Пошаљи упит", lat:"Pošalji upit", en:"Send inquiry", de:"Anfrage senden" },
+      slide1Secondary: { cyrl:"Наше услуге", lat:"Naše usluge", en:"Our services", de:"Unsere Leistungen" },
+
+      slide2Pill: { cyrl:"Индустријски склопови", lat:"Industrijski sklopovi", en:"Industrial assemblies", de:"Industrielle Baugruppen" },
+      slide2Title: { cyrl:"Израда и обнова <br/>кључних компоненти.", lat:"Izrada i obnova <br/>ključnih komponenti.", en:"Fabrication and refurbishment <br/>of key components.", de:"Fertigung und Instandsetzung <br/>kritischer Komponenten." },
+      slide2Lead: { cyrl:"Радови на турбинама, машинским деловима, цевоводима и индустријској опреми.", lat:"Radovi na turbinama, mašinskim delovima, cevovodima i industrijskoj opremi.", en:"Work on turbines, machine parts, pipelines and industrial equipment.", de:"Arbeiten an Turbinen, Maschinenteilen, Rohrleitungen und Industrieanlagen." },
+      slide2Primary: { cyrl:"Погледај радове", lat:"Pogledaj radove", en:"View our work", de:"Arbeiten ansehen" },
+      slide2Secondary: { cyrl:"Контакт", lat:"Kontakt", en:"Contact", de:"Kontakt" },
+
+      slide3Pill: { cyrl:"Монтажа и одржавање", lat:"Montaža i održavanje", en:"Installation and maintenance", de:"Montage und Instandhaltung" },
+      slide3Title: { cyrl:"Један партнер <br/>од захтева до решења.", lat:"Jedan partner <br/>od zahteva do rešenja.", en:"One partner <br/>from request to solution.", de:"Ein Partner <br/>von der Anfrage bis zur Lösung." },
+      slide3Lead: { cyrl:"Демонтажа, монтажа, дислокација машина и репаратурно машинско одржавање.", lat:"Demontaža, montaža, dislokacija mašina i reparaturno mašinsko održavanje.", en:"Dismantling, installation, relocation of machinery and repair maintenance.", de:"Demontage, Montage, Verlagerung von Maschinen und Instandsetzung." },
+      slide3Primary: { cyrl:"Затражи понуду", lat:"Zatraži ponudu", en:"Request a quote", de:"Angebot anfordern" },
+      slide3Secondary: { cyrl:"Капацитети", lat:"Kapaciteti", en:"Capacity", de:"Kapazitäten" },
+      slidePrevious: { cyrl:"Претходни слајд", lat:"Prethodni slajd", en:"Previous slide", de:"Vorherige Folie" },
+      slideNext: { cyrl:"Следећи слајд", lat:"Sledeći slajd", en:"Next slide", de:"Nächste Folie" },
+
       metaAddress: { cyrl:"📍 Улица Српских владара 431, Пирот", lat:"📍 Ulica Srpskih vladara 431, Pirot", en:"📍 Ulica Srpskih vladara 431, Pirot", de:"📍 Ulica Srpskih vladara 431, Pirot" },
       metaHall: { cyrl:"🏭 5.200 m² производна хала", lat:"🏭 5.200 m² proizvodna hala", en:"🏭 5,200 m² production hall", de:"🏭 5.200 m² Produktionshalle" },
       metaCrane: { cyrl:"🏗 Мостне дизалице до 10t", lat:"🏗 Mostne dizalice do 10t", en:"🏗 Bridge cranes up to 10t", de:"🏗 Brückenkrane bis 10 t" },
