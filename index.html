@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Вармонт — Металне конструкције и индустријски системи</title>
 
-  <meta name="description" content="Вармонт — металне надстрешнице, индустријске турбине и челичне конструкције из Пирота. Пројектовање, израда и монтажа из једне хале." />
-  <meta name="keywords" content="Varmont, металне надстрешнице, индустријске турбине, челичне конструкције, Пирот, монтажa, заваривање, машинска обрада" />
+  <meta name="description" content="Вармонт из Пирота — професионално заваривање, монтажа и репаратурно машинско одржавање у радионици и на терену." />
+  <meta name="keywords" content="Varmont, професионално заваривање, TIG, MIG MAG, REL, EPP, монтажа, машинско одржавање, Пирот" />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://varmont.rs/" />
   <meta name="theme-color" content="#f5f6fa" />
@@ -16,493 +16,27 @@
   <meta property="og:url" content="https://varmont.rs/" />
   <meta property="og:title" content="Вармонт — Металне конструкције и индустријски системи" />
   <meta property="og:description" content="Металне надстрешнице, турбине и челичне конструкције — пројектовање, израда и монтажа." />
-  <meta property="og:image" content="https://images.unsplash.com/photo-1541976590-713941681591?auto=format&fit=crop&w=1400&q=80" />
+  <meta property="og:image" content="https://varmont.rs/assets/zavarivanje.jpg" />
   <meta property="og:site_name" content="Вармонт" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Вармонт — Металне конструкције и индустријски системи" />
   <meta name="twitter:description" content="Металне надстрешнице, турбине и челичне конструкције — пројектовање, израда и монтажа." />
-  <meta name="twitter:image" content="https://images.unsplash.com/photo-1541976590-713941681591?auto=format&fit=crop&w=1400&q=80" />
+  <meta name="twitter:image" content="https://varmont.rs/assets/zavarivanje.jpg" />
 
-  <style>
-    :root{
-      --bg:#f5f6fa;
-      --bg2:#e3e7ed;
-      --card:rgba(255,255,255,.92);
-      --card2:rgba(255,255,255,.86);
-      --text:#1b2433;
-      --muted:#5b6474;
-      --line:rgba(31,42,60,.12);
-      --brand:#5f7fb8;
-      --brand2:#9fc5ff;
-      --shadow:0 18px 50px rgba(22,33,52,.12);
-      --radius:18px;
-      --max:1160px;
-    }
-
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans";
-      color:var(--text);
-      background:
-        radial-gradient(1200px 700px at 65% -10%, rgba(101,114,130,.22), transparent 60%),
-        radial-gradient(900px 560px at 20% 0%, rgba(217,220,225,.45), transparent 55%),
-        linear-gradient(180deg, var(--bg), var(--bg2) 45%, #cfd3da);
-      background-color:#f7f8fb;
-    }
-
-    a{color:inherit;text-decoration:none}
-    .wrap{max-width:var(--max); margin:0 auto; padding:0 18px}
-
-    /* Buttons */
-    .btn{
-      display:inline-flex; align-items:center; justify-content:center;
-      gap:10px;
-      padding:12px 16px;
-      border-radius:12px;
-      border:1px solid var(--line);
-      background:rgba(255,255,255,.92);
-      color:var(--text);
-      box-shadow:0 1px 2px rgba(15,23,42,.06);
-      transition:.2s ease;
-      font-weight:700;
-      cursor:pointer;
-      white-space:nowrap;
-    }
-    .btn:hover{transform:translateY(-1px); border-color:rgba(15,23,42,.18); background:#fff}
-    .btn.primary{
-      background:linear-gradient(135deg, rgba(95,127,184,.95), rgba(115,170,241,.78));
-      border-color: rgba(95,127,184,.45);
-      color:#031225;
-    }
-    .btn.primary:hover{filter:brightness(1.05)}
-    .btn.ghost{
-      background:transparent;
-      border-color:var(--line);
-      color:var(--text);
-    }
-
-    .pill{
-      display:inline-flex; gap:10px; align-items:center;
-      padding:8px 12px; border-radius:999px;
-      border:1px solid var(--line);
-      background:rgba(255,255,255,.8);
-      color:var(--muted);
-      font-size:14px;
-    }
-
-    /* Header */
-    header{
-      position:sticky; top:0; z-index:60;
-      backdrop-filter: blur(12px);
-      background:rgba(255,255,255,.85);
-      border-bottom:1px solid var(--line);
-      box-shadow:0 10px 25px rgba(15,23,42,.08);
-    }
-    .nav{
-      display:flex; align-items:center; justify-content:space-between;
-      padding:14px 0; gap:14px;
-    }
-    .brand{
-      display:flex; align-items:center; gap:10px;
-      font-weight:900;
-      letter-spacing:.2px;
-    }
-    .logo{
-      width:40px; height:40px; border-radius:12px;
-      background:
-        radial-gradient(circle at 30% 30%, rgba(255,255,255,.2), transparent 55%),
-        linear-gradient(135deg, rgba(95,127,184,1), rgba(146,191,255,.95));
-      box-shadow: var(--shadow);
-      flex:0 0 auto;
-    }
-    nav ul{
-      list-style:none; margin:0; padding:0;
-      display:flex; gap:8px; align-items:center;
-    }
-    nav a{
-      color:var(--muted);
-      font-weight:700;
-      font-size:14px;
-      padding:10px 12px;
-      border-radius:12px;
-      transition:.2s;
-    }
-    nav a:hover{color:var(--text); background:rgba(15,23,42,.06)}
-    .actions{display:flex; gap:10px; align-items:center}
-    .langSwitcher{position:relative}
-    .langBtn{display:inline-flex; align-items:center; gap:6px}
-    .langChevron{font-size:12px; opacity:.7; transition:.2s transform}
-    .langSwitcher.open .langChevron{transform:rotate(180deg)}
-    .langMenu{
-      position:absolute;
-      top:calc(100% + 6px);
-      right:0;
-      min-width:210px;
-      border-radius:12px;
-      border:1px solid var(--line);
-      background:var(--card);
-      box-shadow:0 12px 28px rgba(22,33,52,.16);
-      padding:6px;
-      display:flex;
-      flex-direction:column;
-      gap:4px;
-      opacity:0;
-      pointer-events:none;
-      transform:translateY(-4px);
-      transition:.16s ease;
-      z-index:120;
-    }
-    .langSwitcher.open .langMenu{opacity:1; pointer-events:auto; transform:translateY(0)}
-    .langMenu button{
-      width:100%;
-      border:0;
-      background:transparent;
-      border-radius:8px;
-      padding:8px 10px;
-      text-align:left;
-      font-weight:600;
-      font-size:14px;
-      color:var(--text);
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      gap:6px;
-      cursor:pointer;
-    }
-    .langMenu button:hover{background:rgba(15,23,42,.08)}
-    .langMenu button.active{
-      background:rgba(95,127,184,.16);
-      color:var(--brand);
-    }
-
-    /* Mobile drawer */
-    .mobileBtn{display:none}
-    .drawerOverlay{
-      position:fixed; inset:0; background:rgba(0,0,0,.4);
-      opacity:0; pointer-events:none; transition:.2s;
-      z-index:80;
-    }
-    .drawer{
-      position:fixed; top:0; right:0; height:100%; width:min(360px, 92vw);
-      background:rgba(255,255,255,.95);
-      border-left:1px solid rgba(15,23,42,.1);
-      transform:translateX(102%);
-      transition:.25s ease;
-      z-index:90;
-      padding:16px;
-      display:flex; flex-direction:column; gap:10px;
-    }
-    .drawerHeader{display:flex; justify-content:space-between; align-items:center; gap:10px}
-    .drawer a{
-      padding:12px 12px;
-      border-radius:14px;
-      border:1px solid rgba(15,23,42,.1);
-      background:rgba(244,246,250,.95);
-      color:var(--text);
-      font-weight:800;
-    }
-    .drawer a:hover{background:rgba(15,23,42,.05)}
-    .drawerOpen .drawerOverlay{opacity:1; pointer-events:auto}
-    .drawerOpen .drawer{transform:translateX(0)}
-
-    /* Hero */
-    .hero{padding:26px 0 18px}
-    .heroShell{
-      border:1px solid var(--line);
-      background:linear-gradient(180deg, rgba(102,116,139,.92), rgba(54,70,97,.95));
-      border-radius: calc(var(--radius) + 6px);
-      box-shadow: var(--shadow);
-      overflow:hidden;
-      position:relative;
-      color:#f5f8ff;
-    }
-    .heroBg{
-      position:absolute; inset:0;
-      background:
-        linear-gradient(95deg, rgba(62,76,99,.88) 0%, rgba(94,114,142,.74) 52%, rgba(148,167,190,.6) 100%),
-        url("https://images.unsplash.com/photo-1541976590-713941681591?auto=format&fit=crop&w=1800&q=80");
-      background-size:cover;
-      background-position:center;
-      filter:saturate(1.05);
-    }
-    .heroInner{
-      position:relative;
-      padding:26px;
-      display:grid;
-      grid-template-columns: 1.15fr .85fr;
-      gap:14px;
-      align-items:stretch;
-    }
-    .heroShell .lead{color:rgba(255,255,255,.8)}
-    .heroShell .pill{
-      background:rgba(255,255,255,.16);
-      color:#f7fbff;
-      border-color:rgba(255,255,255,.28);
-    }
-    .heroShell .kpi span{color:rgba(255,255,255,.7)}
-
-    h1{
-      margin:12px 0 10px;
-      font-size: clamp(32px, 4.4vw, 56px);
-      line-height:1.03;
-      letter-spacing:-.7px;
-    }
-    .lead{color:var(--muted); font-size:16px; line-height:1.65; max-width:62ch}
-    .heroCtas{display:flex; flex-wrap:wrap; gap:10px; margin-top:16px}
-    .meta{display:flex; flex-wrap:wrap; gap:10px; margin-top:16px}
-
-    .kpiGrid{
-      display:grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap:12px;
-      height:100%;
-    }
-    .kpi{
-      border:1px solid rgba(255,255,255,.12);
-      background:rgba(0,0,0,.22);
-      border-radius:16px;
-      padding:16px;
-      display:flex; flex-direction:column; justify-content:space-between;
-      min-height:128px;
-    }
-    .kpi strong{font-size:20px}
-    .kpi span{color:var(--muted); font-size:13px; line-height:1.45}
-
-    /* Sections */
-    .section{padding:28px 0}
-    .section h2{font-size:22px; margin:0 0 10px; letter-spacing:-.2px}
-    .sub{color:var(--muted); margin:0 0 14px; line-height:1.65}
-
-    .grid3{display:grid; grid-template-columns: repeat(3, 1fr); gap:12px}
-    .grid2{display:grid; grid-template-columns: 1fr 1fr; gap:12px}
-    .card{
-      border:1px solid var(--line);
-      background:var(--card2);
-      border-radius: var(--radius);
-      padding:16px;
-      box-shadow: 0 15px 30px rgba(22,33,52,.12);
-      backdrop-filter: blur(8px);
-    }
-
-    /* Services like HDDS: card + image */
-    .svc{
-      overflow:hidden;
-      padding:0;
-    }
-    .svcTop{
-      display:flex; gap:12px; align-items:center;
-      padding:16px 16px 12px;
-    }
-    .icon{
-      width:42px; height:42px; border-radius:14px;
-      background:rgba(95,127,184,.12);
-      border:1px solid rgba(95,127,184,.26);
-      display:grid; place-items:center;
-      color:var(--brand);
-      font-weight:900;
-      flex:0 0 auto;
-    }
-    .tag{
-      display:inline-flex; padding:6px 10px; border-radius:999px;
-      border:1px solid var(--line);
-      color:var(--muted);
-      font-size:12px; font-weight:700;
-      background:rgba(255,255,255,.9);
-      margin-top:6px;
-    }
-    .svcBody{padding:0 16px 14px}
-    .svcImg{
-      border-top:1px solid var(--line);
-      height:170px;
-      background:#d1d5de;
-      overflow:hidden;
-    }
-    .svcImg img{width:100%; height:100%; object-fit:cover; display:block; filter:saturate(1.05)}
-
-    /* Machine park / capacity list */
-    .list{
-      display:grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap:10px;
-      margin-top:12px;
-    }
-    .item{
-      border:1px solid var(--line);
-      background:rgba(255,255,255,.94);
-      border-radius:16px;
-      padding:14px;
-      display:flex; gap:12px; align-items:flex-start;
-      box-shadow:0 10px 25px rgba(22,33,52,.08);
-    }
-    .dot{
-      width:12px; height:12px; margin-top:6px;
-      border-radius:999px;
-      background:linear-gradient(135deg, rgba(95,127,184,1), rgba(146,191,255,.95));
-      box-shadow: 0 0 0 4px rgba(95,127,184,.15);
-      flex:0 0 auto;
-    }
-    .item strong{display:block; font-size:14px}
-    .item span{display:block; color:var(--muted); font-size:13px; line-height:1.5; margin-top:4px}
-
-    /* Projects gallery */
-    .gallery{
-      display:grid;
-      grid-template-columns: repeat(12, 1fr);
-      gap:10px;
-      margin-top:12px;
-    }
-    .ph{
-      border:1px solid var(--line);
-      background:#dde1e8;
-      border-radius:16px;
-      position:relative;
-      overflow:hidden;
-      min-height:140px;
-      box-shadow:0 10px 30px rgba(22,33,52,.12);
-    }
-    .ph a{position:absolute; inset:0; display:block}
-    .ph img{width:100%; height:100%; object-fit:cover; display:block}
-    .ph.big{grid-column: span 6; aspect-ratio: 3 / 2; min-height:240px}
-    .ph.mid{grid-column: span 3; aspect-ratio: 4 / 5; min-height:190px}
-    .ph.small{grid-column: span 2; aspect-ratio: 1 / 1; min-height:150px}
-    .projectHistory{display:grid; gap:18px; margin-top:12px}
-    .era{
-      border:1px solid var(--line);
-      border-radius:var(--radius);
-      padding:18px;
-      background:var(--card);
-      box-shadow:0 12px 28px rgba(22,33,52,.1);
-    }
-    .eraHeader{display:flex; flex-direction:column; gap:6px; margin-bottom:12px}
-    .eraHeader h3{margin:0; font-size:20px}
-    .eraHeader p{margin:0; color:var(--muted)}
-    .eraBadge{
-      display:inline-flex;
-      align-items:center;
-      gap:6px;
-      font-size:12px;
-      font-weight:800;
-      text-transform:uppercase;
-      letter-spacing:.8px;
-      border:1px solid rgba(95,127,184,.28);
-      background:rgba(95,127,184,.12);
-      color:var(--brand);
-      padding:4px 12px;
-      border-radius:999px;
-    }
-    .gallery.latest .ph{border-color:rgba(95,127,184,.35)}
-    .gallery.archive .ph{opacity:.92}
-
-    /* CTA band */
-    .ctaBand{
-      border:1px solid var(--line);
-      background: linear-gradient(135deg, rgba(95,127,184,.12), rgba(146,191,255,.18));
-      border-radius: calc(var(--radius) + 6px);
-      padding:18px;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:12px;
-      box-shadow: var(--shadow);
-    }
-    .ctaBand strong{font-size:18px}
-    .ctaBand p{margin:6px 0 0; color:var(--muted); line-height:1.6}
-    .ctaBand .ctaBtns{display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end}
-
-    /* Contact + form */
-    .input{
-      width:100%;
-      padding:12px 12px;
-      border-radius:12px;
-      border:1px solid var(--line);
-      background:#fff;
-      color:var(--text);
-      outline:none;
-      font:inherit;
-      box-shadow: inset 0 1px 2px rgba(15,23,42,.06);
-    }
-    .input:focus{border-color:rgba(95,127,184,.45); box-shadow:0 0 0 3px rgba(95,127,184,.18)}
-    .who{color:var(--muted); font-size:13px}
-    .note{font-size:12px; color:var(--muted); margin-top:10px}
-
-    .mapCard{
-      margin-top:16px;
-      border:1px solid var(--line);
-      border-radius:var(--radius);
-      overflow:hidden;
-      box-shadow:var(--shadow);
-      min-height:340px;
-      background:#e1e5ec;
-    }
-    .mapEmbed{width:100%; height:100%; min-height:340px; border:0; display:block}
-
-    /* Footer */
-    .footer{padding:26px 0 40px; border-top:1px solid var(--line); color:var(--muted)}
-    .footGrid{display:grid; grid-template-columns: 1.2fr .8fr; gap:12px}
-    .mini{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px}
-
-    /* Responsive */
-    @media (max-width: 980px){
-      .heroInner{grid-template-columns:1fr}
-      .grid3{grid-template-columns:1fr}
-      .grid2{grid-template-columns:1fr}
-      .list{grid-template-columns:1fr}
-      nav ul{display:none}
-      .mobileBtn{display:inline-flex}
-      .gallery{grid-template-columns:repeat(6, 1fr)}
-      .ph.big{grid-column: span 6}
-      .ph.mid{grid-column: span 3}
-      .ph.small{grid-column: span 3}
-      .footGrid{grid-template-columns:1fr}
-      .ctaBand{flex-direction:column; align-items:flex-start}
-      .ctaBand .ctaBtns{justify-content:flex-start}
-    }
-    @media (max-width: 600px){
-      .wrap{padding:0 14px}
-      .hero{padding:18px 0 12px}
-      .heroInner{padding:16px}
-      .nav{flex-direction:column; align-items:flex-start; gap:10px}
-      .actions{
-        gap:8px;
-        width:100%;
-        flex-wrap:wrap;
-        justify-content:flex-start;
-      }
-      .langSwitcher{width:100%}
-      .langBtn{width:100%; justify-content:center}
-      .actions .mobileBtn{flex:1 1 100%}
-      .actions .btn{
-        width:100%;
-        justify-content:center;
-        flex:1 1 calc(50% - 8px);
-      }
-      .heroCtas, .mini{flex-direction:column; align-items:stretch}
-      .heroCtas .btn, .mini .btn{width:100%}
-      .kpiGrid{grid-template-columns:1fr}
-      .meta{flex-direction:column}
-      .pill, .tag{width:100%; justify-content:center; text-align:center}
-      .gallery{grid-template-columns:1fr}
-      .ph.big, .ph.mid, .ph.small{grid-column:span 1}
-      .mapCard{min-height:280px}
-      .mapEmbed{min-height:280px}
-    }
-  </style>
-
+  <link rel="stylesheet" href="assets/styles.css" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": "https://varmont.rs/#business",
     "name": "Вармонт",
-    "description": "Вармонт производи металне надстрешнице, индустријске турбине и челичне конструкције у Пироту.",
+    "description": "Вармонт из Пирота пружа професионално заваривање, монтажу и машинско одржавање.",
     "url": "https://varmont.rs/",
     "telephone": "+381631900120",
     "email": "prodaja@varmont.rs",
     "priceRange": "RSD",
-    "image": "https://images.unsplash.com/photo-1541976590-713941681591?auto=format&fit=crop&w=1400&q=80",
+    "image": "https://varmont.rs/assets/zavarivanje.jpg",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Улица Српских владара 431",
@@ -585,11 +119,11 @@
 
           <div class="heroInner">
             <div>
-              <span class="pill" data-i18n="heroPill">⚙️ Челик • Турбине • Надстрешнице • Монтажа</span>
-              <h1 data-i18n="heroTitle" data-i18n-mode="html">Индустријска израда <br/>од пројекта до терена.</h1>
+              <span class="pill" data-i18n="heroPill">⚙️ Професионално заваривање • Производња • Монтажа</span>
+              <h1 data-i18n="heroTitle" data-i18n-mode="html">Стручно и поуздано <br/>заваривање.</h1>
               <p class="lead" data-i18n="heroLead">
-                Вармонт испоручује металне надстрешнице, челичне конструкције и индустријске турбинске склопове.
-                Један тим покрива пројектовање, производњу и монтажу — брже, чистије, сигурније.
+                Вармонт из Пирота пружа све врсте заваривања у радионици и на терену, као и комплетну услугу
+                израде, демонтаже, монтаже и репаратурног машинског одржавања.
               </p>
 
               <div class="heroCtas">
@@ -650,7 +184,7 @@
               </p>
             </div>
             <div class="svcImg">
-              <img src="https://images.unsplash.com/photo-1597008641621-cefdcf7181b2?auto=format&fit=crop&w=1200&q=80" alt="Метална надстрешница" loading="lazy" />
+              <img src="assets/valjara.jpg" alt="Индустријски пројекат Вармонт" loading="lazy" />
             </div>
           </article>
 
@@ -668,7 +202,7 @@
               </p>
             </div>
             <div class="svcImg">
-              <img src="https://images.unsplash.com/photo-1581092334444-1d987deea7b0?auto=format&fit=crop&w=1200&q=80" alt="Индустријски склоп" loading="lazy" />
+              <img src="assets/turbine.jpg" alt="Турбински склоп у изради" loading="lazy" />
             </div>
           </article>
 
@@ -686,7 +220,7 @@
               </p>
             </div>
             <div class="svcImg">
-              <img src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=80" alt="Челична конструкција" loading="lazy" />
+              <img src="assets/zavarivanje.jpg" alt="Репаратурно заваривање у радионици" loading="lazy" />
             </div>
           </article>
         </div>
@@ -845,28 +379,28 @@
 
             <div class="gallery latest" aria-label="Најновији пројекти" data-i18n-attr="aria-label:projectsLatestAria">
               <div class="ph big">
-                <a href="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=80" target="_blank" rel="noreferrer">
-                  <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=80" alt="Најновији пројекат — монтажна хала" loading="lazy" />
+                <a href="assets/zavarivanje.jpg" target="_blank" rel="noreferrer">
+                  <img src="assets/zavarivanje.jpg" alt="Репаратурно заваривање у радионици" loading="lazy" />
                 </a>
               </div>
               <div class="ph mid">
-                <a href="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=900&q=80" target="_blank" rel="noreferrer">
-                  <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=900&q=80" alt="Најновији пројекат — челична структура" loading="lazy" />
+                <a href="assets/turbine.jpg" target="_blank" rel="noreferrer">
+                  <img src="assets/turbine.jpg" alt="Турбински склоп у изради" loading="lazy" />
                 </a>
               </div>
               <div class="ph mid">
-                <a href="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80" target="_blank" rel="noreferrer">
-                  <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80" alt="Најновији пројекат — турбински склоп" loading="lazy" />
+                <a href="assets/michelin.jpg" target="_blank" rel="noreferrer">
+                  <img src="assets/michelin.jpg" alt="Индустријски пројекат Вармонт" loading="lazy" />
                 </a>
               </div>
               <div class="ph small">
-                <a href="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=80" target="_blank" rel="noreferrer">
-                  <img src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=80" alt="Најновији пројекат — метална надстрешница за логистику" loading="lazy" />
+                <a href="assets/valjara.jpg" target="_blank" rel="noreferrer">
+                  <img src="assets/valjara.jpg" alt="Индустријски пројекат Вармонт" loading="lazy" />
                 </a>
               </div>
               <div class="ph small">
-                <a href="https://images.unsplash.com/photo-1581092795360-6c6e2cacb499?auto=format&fit=crop&w=900&q=80" target="_blank" rel="noreferrer">
-                  <img src="https://images.unsplash.com/photo-1581092795360-6c6e2cacb499?auto=format&fit=crop&w=900&q=80" alt="Најновији пројекат — индустријски склоп и монтажна линија" loading="lazy" />
+                <a href="assets/zumtobel.jpg" target="_blank" rel="noreferrer">
+                  <img src="assets/zumtobel.jpg" alt="Индустријски пројекат Вармонт" loading="lazy" />
                 </a>
               </div>
             </div>
@@ -881,33 +415,33 @@
 
             <div class="gallery archive" aria-label="Претходни пројекти" data-i18n-attr="aria-label:projectsArchiveAria">
               <div class="ph mid">
-                <a href="https://images.unsplash.com/photo-1503389152951-9f343605f61e?auto=format&fit=crop&w=900&q=80" target="_blank" rel="noreferrer">
-                  <img src="https://images.unsplash.com/photo-1503389152951-9f343605f61e?auto=format&fit=crop&w=900&q=80" alt="Претходни пројекат — логистичка надстрешница" loading="lazy" />
+                <a href="assets/valjara.jpg" target="_blank" rel="noreferrer">
+                  <img src="assets/valjara.jpg" alt="Индустријски пројекат Вармонт" loading="lazy" />
                 </a>
               </div>
               <div class="ph mid">
-                <a href="https://images.unsplash.com/photo-1469478715127-7a3c784bcd45?auto=format&fit=crop&w=900&q=80" target="_blank" rel="noreferrer">
-                  <img src="https://images.unsplash.com/photo-1469478715127-7a3c784bcd45?auto=format&fit=crop&w=900&q=80" alt="Претходни пројекат — челични мост" loading="lazy" />
+                <a href="assets/michelin.jpg" target="_blank" rel="noreferrer">
+                  <img src="assets/michelin.jpg" alt="Индустријски пројекат Вармонт" loading="lazy" />
                 </a>
               </div>
               <div class="ph small">
-                <a href="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80" target="_blank" rel="noreferrer">
-                  <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80" alt="Претходни пројекат — индустријски вентилатор" loading="lazy" />
+                <a href="assets/turbine.jpg" target="_blank" rel="noreferrer">
+                  <img src="assets/turbine.jpg" alt="Турбински склоп у изради" loading="lazy" />
                 </a>
               </div>
               <div class="ph small">
-                <a href="https://images.unsplash.com/photo-1452602879522-284972c12f4d?auto=format&fit=crop&w=800&q=80" target="_blank" rel="noreferrer">
-                  <img src="https://images.unsplash.com/photo-1452602879522-284972c12f4d?auto=format&fit=crop&w=800&q=80" alt="Претходни пројекат — сервисна платформа" loading="lazy" />
+                <a href="assets/zavarivanje.jpg" target="_blank" rel="noreferrer">
+                  <img src="assets/zavarivanje.jpg" alt="Репаратурно заваривање у радионици" loading="lazy" />
                 </a>
               </div>
               <div class="ph small">
-                <a href="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=900&q=80" target="_blank" rel="noreferrer">
-                  <img src="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=900&q=80" alt="Претходни пројекат — индустријска хала" loading="lazy" />
+                <a href="assets/zumtobel.jpg" target="_blank" rel="noreferrer">
+                  <img src="assets/zumtobel.jpg" alt="Индустријски пројекат Вармонт" loading="lazy" />
                 </a>
               </div>
               <div class="ph small">
-                <a href="https://images.unsplash.com/photo-1469474714905-87b0e5654193?auto=format&fit=crop&w=900&q=80" target="_blank" rel="noreferrer">
-                  <img src="https://images.unsplash.com/photo-1469474714905-87b0e5654193?auto=format&fit=crop&w=900&q=80" alt="Претходни пројекат — метална пасарела" loading="lazy" />
+                <a href="assets/michelin.jpg" target="_blank" rel="noreferrer">
+                  <img src="assets/michelin.jpg" alt="Индустријски пројекат Вармонт" loading="lazy" />
                 </a>
               </div>
             </div>
@@ -1011,539 +545,7 @@
     </footer>
   </main>
 
-  <script>
-    // year
-    document.getElementById("y").textContent = new Date().getFullYear();
-
-    // Drawer
-    const menuBtn = document.getElementById("menuBtn");
-    const drawer = document.getElementById("drawer");
-    const overlay = document.getElementById("drawerOverlay");
-    const closeDrawer = document.getElementById("closeDrawer");
-    const drawerLinks = document.querySelectorAll(".drawerLink");
-
-    function openDrawer(){
-      document.body.classList.add("drawerOpen");
-      menuBtn?.setAttribute("aria-expanded","true");
-      overlay?.setAttribute("aria-hidden","false");
-    }
-    function closeDrawerFn(){
-      document.body.classList.remove("drawerOpen");
-      menuBtn?.setAttribute("aria-expanded","false");
-      overlay?.setAttribute("aria-hidden","true");
-    }
-    menuBtn?.addEventListener("click", openDrawer);
-    overlay?.addEventListener("click", closeDrawerFn);
-    closeDrawer?.addEventListener("click", closeDrawerFn);
-    drawerLinks.forEach(a => a.addEventListener("click", closeDrawerFn));
-    document.addEventListener("keydown", (e)=>{ if(e.key === "Escape") closeDrawerFn(); });
-
-    // i18n (ср ћир/лат + енг + нем)
-    const translations = {
-      pageTitle: {
-        cyrl:"Вармонт — Металне конструкције и индустријски системи",
-        lat:"Varmont — Metalne konstrukcije i industrijski sistemi",
-        en:"Varmont — Metal structures and industrial systems",
-        de:"Varmont — Metallkonstruktionen und Industriesysteme"
-      },
-      metaDescription: {
-        cyrl:"Вармонт — металне надстрешнице, индустријске турбине и челичне конструкције из Пирота.",
-        lat:"Varmont — metalne nadstrešnice, industrijske turbine i čelične konstrukcije iz Pirota.",
-        en:"Varmont — metal canopies, industrial turbines and steel structures from Pirot. Design, fabrication and installation from one hall.",
-        de:"Varmont — Metallüberdachungen, Industrieturbinen und Stahlkonstruktionen aus Pirot. Planung, Fertigung und Montage aus einer Halle."
-      },
-
-      brandName: { cyrl:"Вармонт", lat:"Varmont", en:"Varmont", de:"Varmont" },
-      brandAriaLabel: { cyrl:"Почетна", lat:"Početna", en:"Home", de:"Startseite" },
-      navAriaLabel: { cyrl:"Главна навигација", lat:"Glavna navigacija", en:"Main navigation", de:"Hauptnavigation" },
-
-      navServices: { cyrl:"Услуге", lat:"Usluge", en:"Services", de:"Leistungen" },
-      navCapacity: { cyrl:"Капацитети", lat:"Kapaciteti", en:"Capacity", de:"Kapazitäten" },
-      navProcess: { cyrl:"Процес", lat:"Proces", en:"Process", de:"Prozess" },
-      navProjects: { cyrl:"Пројекти", lat:"Projekti", en:"Projects", de:"Projekte" },
-      navContact: { cyrl:"Контакт", lat:"Kontakt", en:"Contact", de:"Kontakt" },
-
-      actionCall: { cyrl:"Позови", lat:"Pozovi", en:"Call", de:"Anrufen" },
-      actionQuote: { cyrl:"Затражи понуду", lat:"Zatraži ponudu", en:"Request a quote", de:"Angebot anfordern" },
-
-      heroPill: {
-        cyrl:"⚙️ Челик • Турбине • Надстрешнице • Монтажа",
-        lat:"⚙️ Čelik • Turbine • Nadstrešnice • Montaža",
-        en:"⚙️ Steel • Turbines • Canopies • Installation",
-        de:"⚙️ Stahl • Turbinen • Überdachungen • Montage"
-      },
-      heroTitle: {
-        cyrl:"Индустријска израда <br/>од пројекта до терена.",
-        lat:"Industrijska izrada <br/>od projekta do terena.",
-        en:"Industrial fabrication <br/>from design to the field.",
-        de:"Industrielle Fertigung <br/>vom Entwurf bis zur Baustelle."
-      },
-      heroLead: {
-        cyrl:"Вармонт испоручује металне надстрешнице, челичне конструкције и индустријске турбинске склопове. Један тим покрива пројектовање, производњу и монтажу — брже, чистије, сигурније.",
-        lat:"Varmont isporučuje metalne nadstrešnice, čelične konstrukcije i industrijske turbinske sklopove. Jedan tim pokriva projektovanje, proizvodnju i montažu — brže, čistije, sigurnije.",
-        en:"Varmont delivers metal canopies, steel structures and industrial turbine assemblies. One team handles design, production and installation — faster, cleaner, safer.",
-        de:"Varmont liefert Metallüberdachungen, Stahlkonstruktionen und industrielle Turbinenbaugruppen. Ein Team übernimmt Planung, Produktion und Montage – schneller, sauberer, sicherer."
-      },
-      heroEmail: { cyrl:"Пошаљи упит", lat:"Pošalji upit", en:"Send inquiry", de:"Anfrage senden" },
-      heroCapacity: { cyrl:"Капацитети", lat:"Kapaciteti", en:"Capacity", de:"Kapazitäten" },
-      heroProjects: { cyrl:"Погледај пројекте", lat:"Pogledaj projekte", en:"See projects", de:"Projekte ansehen" },
-
-      metaAddress: { cyrl:"📍 Улица Српских владара 431, Пирот", lat:"📍 Ulica Srpskih vladara 431, Pirot", en:"📍 Ulica Srpskih vladara 431, Pirot", de:"📍 Ulica Srpskih vladara 431, Pirot" },
-      metaHall: { cyrl:"🏭 5.200 m² производна хала", lat:"🏭 5.200 m² proizvodna hala", en:"🏭 5,200 m² production hall", de:"🏭 5.200 m² Produktionshalle" },
-      metaCrane: { cyrl:"🏗 Мостне дизалице до 10t", lat:"🏗 Mostne dizalice do 10t", en:"🏗 Bridge cranes up to 10t", de:"🏗 Brückenkrane bis 10 t" },
-      metaPhone: { cyrl:"📞 +381 63 190 0120", lat:"📞 +381 63 190 0120", en:"📞 +381 63 190 0120", de:"📞 +381 63 190 0120" },
-
-      kpi1Title:{ cyrl:"Пројектовање", lat:"Projektovanje", en:"Engineering", de:"Planung" },
-      kpi1Desc:{
-        cyrl:"Статика, модели, техничка документација и оптимизација материјала.",
-        lat:"Statika, modeli, tehnička dokumentacija i optimizacija materijala.",
-        en:"Statics, models, technical documentation and material optimization.",
-        de:"Statik, Modelle, technische Dokumentation und Materialoptimierung."
-      },
-      kpi2Title:{ cyrl:"Производња", lat:"Proizvodnja", en:"Fabrication", de:"Fertigung" },
-      kpi2Desc:{
-        cyrl:"Сечење, заваривање, машинска обрада и контроле квалитета.",
-        lat:"Sečenje, zavarivanje, mašinska obrada i kontrole kvaliteta.",
-        en:"Cutting, welding, machining and quality control.",
-        de:"Zuschnitt, Schweißen, Zerspanung und Qualitätskontrollen."
-      },
-      kpi3Title:{ cyrl:"Монтажа", lat:"Montaža", en:"Installation", de:"Montage" },
-      kpi3Desc:{
-        cyrl:"Организација терена, транспорт, дизалице и пуштање у рад.",
-        lat:"Organizacija terena, transport, dizalice i puštanje u rad.",
-        en:"Site planning, transport, cranes and commissioning.",
-        de:"Baustellenorganisation, Transport, Krane und Inbetriebnahme."
-      },
-      kpi4Title:{ cyrl:"Сервис", lat:"Servis", en:"Service", de:"Service" },
-      kpi4Desc:{
-        cyrl:"Одржавање, поправке и брза реакција за индустријске системе.",
-        lat:"Održavanje, popravke i brza reakcija za industrijske sisteme.",
-        en:"Maintenance, repairs and rapid response for industrial systems.",
-        de:"Wartung, Reparaturen und schnelle Reaktion für Industriesysteme."
-      },
-
-      servicesTitle:{
-        cyrl:"Услуге",
-        lat:"Usluge",
-        en:"Services",
-        de:"Leistungen"
-      },
-      servicesSub:{
-        cyrl:"Јасно структурисано — да клијент одмах види шта радите и шта испоручујете.",
-        lat:"Jasno strukturisano — da klijent odmah vidi šta radite i šta isporučujete.",
-        en:"Structured so clients instantly see what you build and deliver.",
-        de:"Klar strukturiert – damit Kunden sofort sehen, was ihr liefert."
-      },
-      svc1Title:{ cyrl:"Металне надстрешнице", lat:"Metalne nadstrešnice", en:"Metal canopies", de:"Metallüberdachungen" },
-      svc1Tag:{ cyrl:"паркинг • улази • логистика", lat:"parking • ulazi • logistika", en:"parking • entrances • logistics", de:"Parkplätze • Eingänge • Logistik" },
-      svc1Desc:{
-        cyrl:"Пројектовање, израда и монтажа по мери. Поцинковано/фарбано, са одводњом и покривачем по избору.",
-        lat:"Projektovanje, izrada i montaža po meri. Pocinkovano/farbano, sa odvodnjom i pokrivačem po izboru.",
-        en:"Custom design, fabrication and installation. Galvanized/painted with drainage and roofing of your choice.",
-        de:"Planung, Fertigung und Montage nach Maß. Verzinkt/lackiert, mit Entwässerung und Wunschdeckung."
-      },
-      svc2Title:{ cyrl:"Индустријске турбине", lat:"Industrijske turbine", en:"Industrial turbines", de:"Industrieturbinen" },
-      svc2Tag:{ cyrl:"ротор • баланс • тестирање", lat:"rotor • balans • testiranje", en:"rotor • balancing • testing", de:"Rotor • Auswuchten • Tests" },
-      svc2Desc:{
-        cyrl:"Израда турбинских компоненти и склопова, контрола геометрије и припрема за интеграцију у систем.",
-        lat:"Izrada turbinskih komponenti i sklopova, kontrola geometrije i priprema za integraciju u sistem.",
-        en:"Manufacture of turbine components and assemblies, geometry control and integration-ready delivery.",
-        de:"Fertigung von Turbinenkomponenten und -baugruppen, Geometrieprüfung und Integrationsvorbereitung."
-      },
-      svc3Title:{ cyrl:"Челичне конструкције", lat:"Čelične konstrukcije", en:"Steel structures", de:"Stahlkonstruktionen" },
-      svc3Tag:{ cyrl:"хале • платформе • носачи", lat:"hale • platforme • nosači", en:"halls • platforms • supports", de:"Hallen • Plattformen • Träger" },
-      svc3Desc:{
-        cyrl:"Конструкције за индустрију и грађевину: сечење, заваривање, пробна монтажа и транспорт на локацију.",
-        lat:"Konstrukcije za industriju i građevinu: sečenje, zavarivanje, probna montaža i transport na lokaciju.",
-        en:"Structures for industry and construction: cutting, welding, trial assembly and transport to site.",
-        de:"Konstruktionen für Industrie und Bau: Zuschnitt, Schweißen, Probelmontage und Transport zur Baustelle."
-      },
-
-      capTitle:{
-        cyrl:"Капацитети и опрема",
-        lat:"Kapaciteti i oprema",
-        en:"Capacity & equipment",
-        de:"Kapazitäten & Ausstattung"
-      },
-      capSub:{
-        cyrl:"Секција која улива поверење: шта имате у хали и шта реално можете да изнесете.",
-        lat:"Sekcija koja uliva poverenje: šta imate u hali i šta realno možete da iznesete.",
-        en:"Build confidence: show what's in the hall and what you can truly deliver.",
-        de:"Abschnitt, der Vertrauen schafft: Was steht in der Halle und was könnt ihr liefern."
-      },
-      capLeftTitle:{ cyrl:"Производни погон", lat:"Proizvodni pogon", en:"Production hall", de:"Produktion" },
-      capLeftDesc:{
-        cyrl:"Организована производња у једном комплексу за краће рокове и контролу квалитета.",
-        lat:"Organizovana proizvodnja u jednom kompleksu za kraće rokove i kontrolu kvaliteta.",
-        en:"Organized production inside one complex for shorter lead times and better QC.",
-        de:"Organisierte Fertigung in einem Komplex für kürzere Termine und Qualitätssicherung."
-      },
-
-      capItem1Title:{ cyrl:"Сечење и припрема", lat:"Sečenje i priprema", en:"Cutting & prep", de:"Zuschnitt & Vorbereitung" },
-      capItem1Desc:{
-        cyrl:"Профили, лимови, припрема спојева и паковање по фазама монтаже.",
-        lat:"Profili, limovi, priprema spojeva i pakovanje po fazama montaže.",
-        en:"Profiles, plates, joint prep and staging per installation phase.",
-        de:"Profile, Bleche, Fugenbearbeitung und Verpackung nach Montageschritten."
-      },
-      capItem2Title:{ cyrl:"Заваривање", lat:"Zavarivanje", en:"Welding", de:"Schweißen" },
-      capItem2Desc:{
-        cyrl:"Сертифициране процедуре, рад са различитим материјалима и контроле спојева.",
-        lat:"Sertificirane procedure, rad sa različitim materijalima i kontrole spojeva.",
-        en:"Certified procedures, various materials and weld inspections.",
-        de:"Zertifizierte Verfahren, verschiedene Materialien und Nahtprüfungen."
-      },
-      capItem3Title:{ cyrl:"Машинска обрада", lat:"Mašinska obrada", en:"Machining", de:"Zerspanung" },
-      capItem3Desc:{
-        cyrl:"Обрада кључних делова/фланшева по документацији и толеранцијама.",
-        lat:"Obrada ključnih delova/flanševa po dokumentaciji i tolerancijama.",
-        en:"Critical parts/flanges machined according to documentation and tolerances.",
-        de:"Bearbeitung kritischer Teile/Flansche gemäß Unterlagen und Toleranzen."
-      },
-      capItem4Title:{ cyrl:"Монтажа и сервис", lat:"Montaža i servis", en:"Installation & service", de:"Montage & Service" },
-      capItem4Desc:{
-        cyrl:"Теренске екипе, логистика, дизалице и пуштање у рад.",
-        lat:"Terenske ekipe, logistika, dizalice i puštanje u rad.",
-        en:"Field crews, logistics, cranes and commissioning.",
-        de:"Montageteams, Logistik, Krane und Inbetriebnahme."
-      },
-
-      capRightTitle:{ cyrl:"Кључне бројке", lat:"Ključne brojke", en:"Key figures", de:"Kennzahlen" },
-      capRightDesc:{
-        cyrl:"Клијенти траже конкретне податке: површину хале, тип дизалица, рокове и домет теренских екипа.",
-        lat:"Klijenti traže konkretne podatke: površinu hale, tip dizalica, rokove i domet terenskih ekipa.",
-        en:"Clients want specifics: hall size, crane setup, lead times and how far your field crews can go.",
-        de:"Kunden wollen Fakten: Hallenfläche, Kranausstattung, Lieferzeiten und Reichweite der Montageteams."
-      },
-      capKpi1Title:{ cyrl:"5.200 m² хала", lat:"5.200 m² hala", en:"5,200 m² hall", de:"5.200 m² Halle" },
-      capKpi1Desc:{ cyrl:"Производња и складиште унутар комплекса.", lat:"Proizvodnja i skladište unutar kompleksa.", en:"Production and storage inside one campus.", de:"Produktion und Lager auf einem Gelände." },
-      capKpi2Title:{ cyrl:"Мостне дизалице 10t", lat:"Mostne dizalice 10t", en:"Bridge cranes 10t", de:"Brückenkrane 10 t" },
-      capKpi2Desc:{ cyrl:"Манипулација великим склоповима и конструкцијама.", lat:"Manipulacija velikim sklopovima i konstrukcijama.", en:"Handling large assemblies and structures.", de:"Handling großer Baugruppen und Konstruktionen." },
-      capKpi3Title:{ cyrl:"Рокови по договору", lat:"Rokovi po dogovoru", en:"Schedules by agreement", de:"Termine nach Vereinbarung" },
-      capKpi3Desc:{ cyrl:"План по фазама: израда → проба → транспорт → монтажа.", lat:"Plan po fazama: izrada → proba → transport → montaža.", en:"Phase plan: build → test fit → transport → install.", de:"Phasenplan: Fertigung → Probeaufbau → Transport → Montage." },
-      capKpi4Title:{ cyrl:"Документација и следљивост", lat:"Dokumentacija i sledljivost", en:"Documentation & traceability", de:"Dokumentation & Rückverfolgbarkeit" },
-      capKpi4Desc:{
-        cyrl:"Материјали са атестом и извештаји за испоруку.",
-        lat:"Materijali sa atestom i izveštaji za isporuku.",
-        en:"Certified materials and delivery reports.",
-        de:"Zertifizierte Materialien und Lieferberichte."
-      },
-
-      capBtn1:{ cyrl:"Питај за рок", lat:"Pitaj za rok", en:"Ask about lead time", de:"Nach Termin fragen" },
-      capBtn2:{ cyrl:"Пошаљи цртеже", lat:"Pošalji crteže", en:"Send drawings", de:"Zeichnungen senden" },
-
-      procTitle:{
-        cyrl:"Процес сарадње",
-        lat:"Proces saradnje",
-        en:"Collaboration process",
-        de:"Ablauf der Zusammenarbeit"
-      },
-      procSub:{
-        cyrl:"Три корака која показују шта се дешава од упита до пуштања у рад.",
-        lat:"Tri koraka koja pokazuju šta se dešava od upita do puštanja u rad.",
-        en:"Three clear steps from inquiry to commissioning.",
-        de:"Drei klare Schritte von der Anfrage bis zur Inbetriebnahme."
-      },
-      proc1Title:{ cyrl:"Упит и документација", lat:"Upit i dokumentacija", en:"Inquiry & documentation", de:"Anfrage & Unterlagen" },
-      proc1Desc:{
-        cyrl:"Пошаљи цртеже/фотографије и захтев. Договоримо рокове, услове терена и стандарде.",
-        lat:"Pošalji crteže/fotografije i zahtev. Dogovorimo rokove, uslove terena i standarde.",
-        en:"Send drawings/photos and requirements. We align timelines, site conditions and standards.",
-        de:"Schick Zeichnungen/Fotos und Anforderungen. Wir klären Termine, Baustelle und Normen."
-      },
-      proc2Title:{ cyrl:"Пројекат и понуда", lat:"Projekat i ponuda", en:"Design & offer", de:"Projekt & Angebot" },
-      proc2Desc:{
-        cyrl:"Статика/модел, предлог материјала и јасна понуда са фазама израде.",
-        lat:"Statika/model, predlog materijala i jasna ponuda sa fazama izrade.",
-        en:"Statics/model, material proposal and a clear quote with fabrication phases.",
-        de:"Statik/Modell, Materialvorschlag und klares Angebot mit Fertigungsphasen."
-      },
-      proc3Title:{ cyrl:"Израда, контрола, монтажа", lat:"Izrada, kontrola, montaža", en:"Fabrication, QA, installation", de:"Fertigung, Prüfung, Montage" },
-      proc3Desc:{
-        cyrl:"Производња у хали, финална контрола, транспорт и монтажа на локацији.",
-        lat:"Proizvodnja u hali, finalna kontrola, transport i montaža na lokaciji.",
-        en:"Production in the hall, final control, transport and on-site assembly.",
-        de:"Produktion in der Halle, Endkontrolle, Transport und Aufbau vor Ort."
-      },
-
-      ctaTitle:{
-        cyrl:"Треба ти понуда за надстрешницу, халу или турбински склоп?",
-        lat:"Treba ti ponuda za nadstrešnicu, halu ili turbinski sklop?",
-        en:"Need a canopy, hall or turbine assembly?",
-        de:"Braucht ihr ein Angebot für Überdachung, Halle oder Turbine?"
-      },
-      ctaSub:{
-        cyrl:"Пошаљи 2–3 информације и добијаш повратну поруку са следећим кораком.",
-        lat:"Pošalji 2–3 informacije i dobijaš povratnu poruku sa sledećim korakom.",
-        en:"Send 2–3 details and we reply with the next step.",
-        de:"Schickt 2–3 Infos und ihr erhaltet den nächsten Schritt zurück."
-      },
-      ctaBtn1:{ cyrl:"Позови", lat:"Pozovi", en:"Call", de:"Anrufen" },
-      ctaBtn2:{ cyrl:"Пошаљи упит", lat:"Pošalji upit", en:"Send inquiry", de:"Anfrage senden" },
-
-      projectsTitle:{ cyrl:"Пројекти", lat:"Projekti", en:"Projects", de:"Projekte" },
-      projectsSub:{
-        cyrl:"Избор актуелних монтажа, хала и турбинских склопова из наше праксе.",
-        lat:"Izbor aktuelnih montaža, hala i turbinskih sklopova iz naše prakse.",
-        en:"Selection of recent installations, halls and turbine assemblies from our work.",
-        de:"Auswahl aktueller Montagen, Hallen und Turbinenbaugruppen aus unseren Projekten."
-      },
-      projectsLatestBadge:{
-        cyrl:"2024 • Најновији радови",
-        lat:"2024 • Najnoviji radovi",
-        en:"2024 • Latest builds",
-        de:"2024 • Aktuelle Projekte"
-      },
-      projectsLatestTitle:{
-        cyrl:"Најновији радови",
-        lat:"Najnoviji radovi",
-        en:"Latest builds",
-        de:"Aktuelle Projekte"
-      },
-      projectsLatestDesc:{
-        cyrl:"Монтаже у току, нове линије и пројекти са већим распонима и алуминијумским завршницама.",
-        lat:"Montaže u toku, nove linije i projekti sa većim rasponima i aluminijumskim završnicama.",
-        en:"Active installations, new lines and large-span projects with aluminum finishes.",
-        de:"Laufende Montagen, neue Linien und Projekte mit großen Spannweiten und Aluminium-Finish."
-      },
-      projectsLatestAria:{
-        cyrl:"Најновији пројекти",
-        lat:"Najnoviji projekti",
-        en:"Latest projects",
-        de:"Aktuelle Projekte"
-      },
-      projectsArchiveBadge:{
-        cyrl:"2018–2023",
-        lat:"2018–2023",
-        en:"2018–2023",
-        de:"2018–2023"
-      },
-      projectsArchiveTitle:{
-        cyrl:"Историјат пројеката",
-        lat:"Istorijat projekata",
-        en:"Project history",
-        de:"Projektchronik"
-      },
-      projectsArchiveDesc:{
-        cyrl:"Референце које су изграђивале репутацију — покривене рампе, сервисне платформе, индустријски погони.",
-        lat:"Reference koje su izgrađivale reputaciju — pokrivene rampe, servisne platforme, industrijski pogoni.",
-        en:"References that built the reputation—covered ramps, service platforms and industrial halls.",
-        de:"Referenzen, die den Ruf aufgebaut haben – überdachte Rampen, Serviceplattformen, Industrieanlagen."
-      },
-      projectsArchiveAria:{
-        cyrl:"Претходни пројекти",
-        lat:"Prethodni projekti",
-        en:"Previous projects",
-        de:"Frühere Projekte"
-      },
-
-      contactTitle:{ cyrl:"Контакт & локација", lat:"Kontakt & lokacija", en:"Contact & location", de:"Kontakt & Standort" },
-      contactBusiness:{ cyrl:"Вармонт — Производни погон", lat:"Varmont — Proizvodni pogon", en:"Varmont — Production plant", de:"Varmont — Produktionswerk" },
-      contactDetails:{
-        cyrl:"📍 Адреса: <span class=\"tag\">Улица Српских владара 431, Пирот</span><br/>🏭 Хала: <span class=\"tag\">5.200 m² — мостне дизалице 10t</span><br/>🕒 Радно време: <span class=\"tag\">Пон–Пет 07:00–17:00ч</span><br/>🕒 Субота: <span class=\"tag\">08:00–13:00ч</span><br/>📞 Телефон: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ Е-пошта: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">пошаљи поруку</a>",
-        lat:"📍 Adresa: <span class=\"tag\">Ulica Srpskih vladara 431, Pirot</span><br/>🏭 Hala: <span class=\"tag\">5.200 m² — mostne dizalice 10t</span><br/>🕒 Radno vreme: <span class=\"tag\">Pon–Pet 07:00–17:00č</span><br/>🕒 Subota: <span class=\"tag\">08:00–13:00č</span><br/>📞 Telefon: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ E-pošta: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">pošalji poruku</a>",
-        en:"📍 Address: <span class=\"tag\">Ulica Srpskih vladara 431, Pirot</span><br/>🏭 Hall: <span class=\"tag\">5,200 m² — bridge cranes 10t</span><br/>🕒 Working hours: <span class=\"tag\">Mon–Fri 07:00–17:00</span><br/>🕒 Saturday: <span class=\"tag\">08:00–13:00</span><br/>📞 Phone: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ Email: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">send a message</a>",
-        de:"📍 Adresse: <span class=\"tag\">Ulica Srpskih vladara 431, Pirot</span><br/>🏭 Halle: <span class=\"tag\">5.200 m² — Brückenkrane 10 t</span><br/>🕒 Arbeitszeit: <span class=\"tag\">Mo–Fr 07:00–17:00</span><br/>🕒 Samstag: <span class=\"tag\">08:00–13:00</span><br/>📞 Telefon: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ E-Mail: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">Nachricht senden</a>"
-      },
-      contactPhoneCTA:{ cyrl:"Позови", lat:"Pozovi", en:"Call", de:"Anrufen" },
-      contactMailCTA:{ cyrl:"Пошаљи пројекат", lat:"Pošalji projekat", en:"Send project", de:"Projekt senden" },
-      contactNote:{
-        cyrl:"По потреби додај линк ка каталогу (PDF), LinkedIn-у и референцама.",
-        lat:"Po potrebi dodaj link ka katalogu (PDF), LinkedIn-u i referencama.",
-        en:"Add a link to a catalogue (PDF), LinkedIn or references if needed.",
-        de:"Bei Bedarf Link zu Katalog (PDF), LinkedIn oder Referenzen ergänzen."
-      },
-
-      quickTitle:{ cyrl:"Брз упит (WhatsApp)", lat:"Brz upit (WhatsApp)", en:"Quick inquiry (WhatsApp)", de:"Schnellanfrage (WhatsApp)" },
-      quickDesc:{
-        cyrl:"Након слања отвара се WhatsApp разговор са припремљеном поруком.",
-        lat:"Nakon slanja otvara se WhatsApp razgovor sa pripremljenom porukom.",
-        en:"After sending, WhatsApp opens with a prepared message.",
-        de:"Nach dem Absenden öffnet sich WhatsApp mit vorbereiteter Nachricht."
-      },
-      quickNote:{
-        cyrl:"Савет: у поруци додај локацију, рок и бар једну скицу/слику — добијаш бржи одговор.",
-        lat:"Savet: u poruci dodaj lokaciju, rok i bar jednu skicu/sliku — dobijaš brži odgovor.",
-        en:"Tip: add location, deadline and at least one sketch/photo for a faster reply.",
-        de:"Tipp: Füge Standort, Termin und mindestens eine Skizze/Foto hinzu – die Antwort kommt schneller."
-      },
-      formName:{ cyrl:"Име", lat:"Ime", en:"Name", de:"Name" },
-      placeholderName:{ cyrl:"нпр. Бојан", lat:"npr. Bojan", en:"e.g. Bojan", de:"z. B. Bojan" },
-      formPhone:{ cyrl:"Телефон", lat:"Telefon", en:"Phone", de:"Telefon" },
-      formMessage:{ cyrl:"Порука", lat:"Poruka", en:"Message", de:"Nachricht" },
-      placeholderMessage:{
-        cyrl:"Потребна је надстрешница 18м са монтажом у октобру...",
-        lat:"Potrebna je nadstrešnica 18m sa montažom u oktobru...",
-        en:"Need an 18 m canopy with installation in October...",
-        de:"Benötige eine 18 m Überdachung mit Montage im Oktober..."
-      },
-      formSubmit:{ cyrl:"Пошаљи", lat:"Pošalji", en:"Send", de:"Senden" },
-
-      footerServices:{
-        cyrl:"Металне надстрешнице • Турбине • Челичне конструкције",
-        lat:"Metalne nadstrešnice • Turbine • Čelične konstrukcije",
-        en:"Metal canopies • Turbines • Steel structures",
-        de:"Metallüberdachungen • Turbinen • Stahlkonstruktionen"
-      },
-      footerRights:{ cyrl:"Сва права задржана.", lat:"Sva prava zadržana.", en:"All rights reserved.", de:"Alle Rechte vorbehalten." },
-      footerLinks:{ cyrl:"Брзи линкови", lat:"Brzi linkovi", en:"Quick links", de:"Schnelllinks" },
-      langMenuAria:{ cyrl:"Избор језика", lat:"Izbor jezika", en:"Language selection", de:"Sprachauswahl" },
-
-      waGreeting:{ cyrl:"Здраво, ја сам", lat:"Zdravo, ja sam", en:"Hello, this is", de:"Hallo, ich bin" },
-      waPhone:{ cyrl:"Телефон", lat:"Telefon", en:"Phone", de:"Telefon" }
-    };
-
-    const langToggle = document.getElementById("langToggle");
-    const langMenu = document.getElementById("langMenu");
-    const langSwitcherEl = document.getElementById("langSwitcher");
-    const langLabel = document.getElementById("langLabel");
-    const storedLang = localStorage.getItem("preferredLang");
-    const supportedLangs = ["cyrl","lat","en","de"];
-    const langLabels = { cyrl:"SR · Ћир", lat:"SR · Lat", en:"EN", de:"DE" };
-    const langAriaLabels = {
-      cyrl:"Промени језик",
-      lat:"Promeni jezik",
-      en:"Change language",
-      de:"Sprache wechseln"
-    };
-    const langNames = {
-      cyrl:"Српски (Ћирилица)",
-      lat:"Српски (Latinica)",
-      en:"English",
-      de:"Deutsch"
-    };
-    let currentLang = supportedLangs.includes(storedLang) ? storedLang : "cyrl";
-
-    function renderLangMenu(){
-      if(!langMenu) return;
-      langMenu.innerHTML = "";
-      supportedLangs.forEach((code) => {
-        const btn = document.createElement("button");
-        btn.type = "button";
-        btn.dataset.lang = code;
-        btn.setAttribute("role","option");
-        btn.textContent = langNames[code] || code.toUpperCase();
-        btn.addEventListener("click", (event) => {
-          event.stopPropagation();
-          applyLanguage(code);
-          closeLangMenu();
-        });
-        langMenu.appendChild(btn);
-      });
-    }
-
-    function updateLangMenuActive(){
-      if(!langMenu) return;
-      langMenu.querySelectorAll("button").forEach((btn) => {
-        const active = btn.dataset.lang === currentLang;
-        btn.classList.toggle("active", active);
-        btn.setAttribute("aria-selected", active ? "true" : "false");
-      });
-    }
-
-    function openLangMenu(){
-      if(!langSwitcherEl) return;
-      langSwitcherEl.classList.add("open");
-      langToggle?.setAttribute("aria-expanded","true");
-    }
-    function closeLangMenu(){
-      if(!langSwitcherEl) return;
-      langSwitcherEl.classList.remove("open");
-      langToggle?.setAttribute("aria-expanded","false");
-    }
-
-    function applyLanguage(lang){
-      const resolved = supportedLangs.includes(lang) ? lang : "cyrl";
-      const htmlLang = resolved === "en"
-        ? "en"
-        : resolved === "de"
-          ? "de"
-          : resolved === "lat"
-            ? "sr-Latn"
-            : "sr";
-      document.documentElement.lang = htmlLang;
-
-      document.querySelectorAll("[data-i18n]").forEach((el) => {
-        const key = el.dataset.i18n;
-        const mode = el.dataset.i18nMode === "html" ? "html" : "text";
-        const t = translations[key]?.[resolved];
-        if(!t) return;
-        if(mode === "html") el.innerHTML = t;
-        else el.textContent = t;
-      });
-
-      document.querySelectorAll("[data-i18n-attr]").forEach((el) => {
-        const pairs = el.dataset.i18nAttr.split(",").map(s=>s.trim()).filter(Boolean);
-        pairs.forEach((pair) => {
-          const [attr, key] = pair.split(":").map(s=>s.trim());
-          const t = translations[key]?.[resolved];
-          if(attr && key && t !== undefined) el.setAttribute(attr, t);
-        });
-      });
-
-      document.title = translations.pageTitle[resolved];
-      const metaDesc = document.querySelector('meta[name="description"]');
-      if(metaDesc) metaDesc.setAttribute("content", translations.metaDescription[resolved]);
-      const ogTitle = document.querySelector('meta[property="og:title"]');
-      const ogDesc = document.querySelector('meta[property="og:description"]');
-      const twTitle = document.querySelector('meta[name="twitter:title"]');
-      const twDesc = document.querySelector('meta[name="twitter:description"]');
-      ogTitle?.setAttribute("content", translations.pageTitle[resolved]);
-      ogDesc?.setAttribute("content", translations.metaDescription[resolved]);
-      twTitle?.setAttribute("content", translations.pageTitle[resolved]);
-      twDesc?.setAttribute("content", translations.metaDescription[resolved]);
-
-      if(langLabel) langLabel.textContent = langLabels[resolved] || langLabels.cyrl;
-      if(langToggle){
-        langToggle.dataset.lang = resolved;
-        langToggle.setAttribute("aria-label", langAriaLabels[resolved] || langAriaLabels.cyrl);
-      }
-
-      localStorage.setItem("preferredLang", resolved);
-      currentLang = resolved;
-      updateLangMenuActive();
-    }
-
-    renderLangMenu();
-    applyLanguage(currentLang);
-
-    langToggle?.addEventListener("click", (event) => {
-      event.stopPropagation();
-      if(langSwitcherEl?.classList.contains("open")) closeLangMenu();
-      else openLangMenu();
-    });
-    langMenu?.addEventListener("click", (event) => event.stopPropagation());
-    document.addEventListener("click", (event) => {
-      if(!langSwitcherEl) return;
-      if(langSwitcherEl.contains(event.target)) return;
-      closeLangMenu();
-    });
-    document.addEventListener("keydown", (event) => {
-      if(event.key === "Escape") closeLangMenu();
-    });
-
-    // WhatsApp form
-    const quickForm = document.getElementById("quickForm");
-    if (quickForm) {
-      quickForm.addEventListener("submit", (event) => {
-        event.preventDefault();
-        const name = quickForm.elements["name"].value.trim();
-        const phone = quickForm.elements["phone"].value.trim();
-        const message = quickForm.elements["message"].value.trim();
-        const greeting = translations.waGreeting[currentLang] || translations.waGreeting.cyrl;
-        const phoneLabel = translations.waPhone[currentLang] || translations.waPhone.cyrl;
-
-        const composed = [
-          `${greeting} ${name}.`,
-          `${phoneLabel}: ${phone}.`,
-          message
-        ].filter(Boolean).join("\n");
-
-        const url = `https://wa.me/381631900120?text=${encodeURIComponent(composed)}`;
-        window.open(url, "_blank", "noopener");
-        quickForm.reset();
-      });
-    }
-  </script>
+  <script src="assets/translations.js" defer></script>
+  <script src="assets/app.js" defer></script>
 </body>
 </html>
