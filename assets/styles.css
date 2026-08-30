@@ -46,8 +46,8 @@
     }
     .btn:hover{transform:translateY(-1px); border-color:rgba(15,23,42,.18); background:#fff}
     .btn.primary{
-      background:linear-gradient(135deg, rgba(95,127,184,.95), rgba(115,170,241,.78));
-      border-color: rgba(95,127,184,.45);
+      background:linear-gradient(135deg, rgba(164,70,30,.98), rgba(213,130,65,.88));
+      border-color: rgba(164,70,30,.45);
       color:#031225;
     }
     .btn.primary:hover{filter:brightness(1.05)}
@@ -145,7 +145,7 @@
     }
     .langMenu button:hover{background:rgba(15,23,42,.08)}
     .langMenu button.active{
-      background:rgba(95,127,184,.16);
+      background:rgba(164,70,30,.14);
       color:var(--brand);
     }
 
@@ -269,8 +269,8 @@
     }
     .icon{
       width:42px; height:42px; border-radius:14px;
-      background:rgba(95,127,184,.12);
-      border:1px solid rgba(95,127,184,.26);
+      background:rgba(164,70,30,.10);
+      border:1px solid rgba(164,70,30,.24);
       display:grid; place-items:center;
       color:var(--brand);
       font-weight:900;
@@ -311,8 +311,8 @@
     .dot{
       width:12px; height:12px; margin-top:6px;
       border-radius:999px;
-      background:linear-gradient(135deg, rgba(95,127,184,1), rgba(146,191,255,.95));
-      box-shadow: 0 0 0 4px rgba(95,127,184,.15);
+      background:linear-gradient(135deg, rgba(164,70,30,1), rgba(224,151,82,.95));
+      box-shadow: 0 0 0 4px rgba(164,70,30,.14);
       flex:0 0 auto;
     }
     .item strong{display:block; font-size:14px}
@@ -358,19 +358,19 @@
       font-weight:800;
       text-transform:uppercase;
       letter-spacing:.8px;
-      border:1px solid rgba(95,127,184,.28);
-      background:rgba(95,127,184,.12);
+      border:1px solid rgba(164,70,30,.25);
+      background:rgba(164,70,30,.10);
       color:var(--brand);
       padding:4px 12px;
       border-radius:999px;
     }
-    .gallery.latest .ph{border-color:rgba(95,127,184,.35)}
+    .gallery.latest .ph{border-color:rgba(164,70,30,.35)}
     .gallery.archive .ph{opacity:.92}
 
     /* CTA band */
     .ctaBand{
       border:1px solid var(--line);
-      background: linear-gradient(135deg, rgba(95,127,184,.12), rgba(146,191,255,.18));
+      background: linear-gradient(135deg, rgba(164,70,30,.10), rgba(224,151,82,.18));
       border-radius: calc(var(--radius) + 6px);
       padding:18px;
       display:flex;
@@ -395,7 +395,7 @@
       font:inherit;
       box-shadow: inset 0 1px 2px rgba(15,23,42,.06);
     }
-    .input:focus{border-color:rgba(95,127,184,.45); box-shadow:0 0 0 3px rgba(95,127,184,.18)}
+    .input:focus{border-color:rgba(164,70,30,.45); box-shadow:0 0 0 3px rgba(164,70,30,.16)}
     .who{color:var(--muted); font-size:13px}
     .note{font-size:12px; color:var(--muted); margin-top:10px}
 
@@ -462,39 +462,39 @@
     }
 
     /* Vizuelni pravac inspirisan originalnom Varmont početnom stranicom. */
-    :root{--bg:#fff;--bg2:#f4f4f4;--text:#252525;--muted:#656565;--brand:#162f82;--brand2:#218dbf;--radius:0px;--shadow:0 0 0 transparent}
+    :root{--bg:#fff;--bg2:#f4f2ef;--text:#292522;--muted:#655f59;--brand:#a4461e;--brand2:#d58241;--radius:0px;--shadow:0 0 0 transparent}
     body{background:#fff;font-family:"Trebuchet MS",Arial,sans-serif}
     header{position:relative;background:#f6f6f6;border:0;box-shadow:none}
     header::before{content:"Profesionalno zavarivanje · Pirot · info@varmont.rs";display:block;padding:7px 18px;color:#d4d4d4;background:#191919;text-align:center;font-size:11px;letter-spacing:.2px}
     .nav{position:relative;flex-direction:column;padding:4px 18px 0;gap:0}
     .brand{order:0}.logo{width:150px;height:76px;border-radius:0;background:transparent url("varmont-wordmark.png") center/contain no-repeat;box-shadow:none}
-    nav{order:1}nav ul{gap:0}nav a{color:#333;padding:10px 15px;border-radius:0;font-size:13px}nav a:hover{color:#fff;background:#162f82}
+    nav{order:1}nav ul{gap:0}nav a{color:#333;padding:10px 15px;border-radius:0;font-size:13px}nav a:hover{color:#fff;background:#a4461e}
     .actions{position:absolute;right:18px;top:25px}.actions .btn{padding:7px 9px;font-size:12px}
     .hero{padding:0}.hero .wrap{max-width:none;padding:0}.heroShell{border:0;border-radius:0;box-shadow:none}
-    .heroBg{background:linear-gradient(90deg,rgba(0,22,70,.54),rgba(0,0,0,.04) 62%),url("hero-welding.jpg");background-position:center}
+    .heroBg{background:linear-gradient(90deg,rgba(35,29,25,.62),rgba(0,0,0,.06) 62%),url("hero-welding.jpg");background-position:center}
     .heroInner{max-width:1160px;min-height:430px;margin:0 auto;padding:86px 28px 42px;display:block}
-    .heroShell .pill{background:#162f82;border:0;border-radius:0}.heroShell h1{display:table;max-width:620px;margin:12px 0;padding:8px 12px;background:rgba(22,47,130,.91);color:#fff;font-size:clamp(32px,4vw,51px)}
+    .heroShell .pill{background:#a4461e;border:0;border-radius:0}.heroShell h1{display:table;max-width:620px;margin:12px 0;padding:8px 12px;background:rgba(45,36,31,.92);color:#fff;font-size:clamp(32px,4vw,51px)}
     .heroShell .lead{max-width:600px;padding:9px 12px;background:rgba(255,255,255,.88);color:#252525}.heroCtas .btn{border-radius:0}.kpiGrid{display:none}
     .section{padding:52px 0}.section:nth-of-type(even){background:#f4f4f4}.section h2{margin-bottom:12px;color:#363636;text-align:center;font-size:31px;font-weight:400}.section > .wrap > .sub{text-align:center;max-width:740px;margin:0 auto 26px}
-    .grid3{gap:0}.card,.era{border:0;border-radius:0;box-shadow:none;background:#fff}.svc{border-right:1px solid #c8c8c8}.svc:last-child{border-right:0}.svcTop{justify-content:center;text-align:center;min-height:76px}.svcBody{text-align:center}.icon{border-radius:0;background:#162f82}.svcImg{height:190px}
-    .projectHistory{gap:34px}.era{padding:0}.eraHeader{text-align:center;align-items:center}.eraBadge{border-radius:0;background:#162f82;color:#fff}.gallery{gap:5px}.ph{border-radius:0}.ctaBand{border-radius:0;background:#162f82}.mapCard{border-radius:0}.footer{background:#191919;border:0;color:#cfcfcf;padding:28px 0}.footer .btn{border-radius:0}
+    .grid3{gap:0}.card,.era{border:0;border-radius:0;box-shadow:none;background:#fff}.svc{border-right:1px solid #c8c8c8}.svc:last-child{border-right:0}.svcTop{justify-content:center;text-align:center;min-height:76px}.svcBody{text-align:center}.icon{border-radius:0;background:#a4461e}.svcImg{height:190px}
+    .projectHistory{gap:34px}.era{padding:0}.eraHeader{text-align:center;align-items:center}.eraBadge{border-radius:0;background:#a4461e;color:#fff}.gallery{gap:5px}.ph{border-radius:0}.ctaBand{border-radius:0;background:#2d241f}.mapCard{border-radius:0}.footer{background:#1f1c1a;border:0;color:#cfcfcf;padding:28px 0}.footer .btn{border-radius:0}
     @media (max-width: 760px){.actions{position:static;margin:8px 0 10px}.nav{padding:4px 12px 10px}.heroInner{min-height:440px;padding:62px 18px 30px}.grid3{gap:12px}.svc{border:0}}
 
     /* Hero karusel */
     .heroCarousel{position:relative;min-height:430px;overflow:hidden;background:#111}
-    .heroSlide{position:absolute;inset:0;display:block;opacity:0;visibility:hidden;transition:opacity .7s ease,visibility .7s ease;background-image:linear-gradient(90deg,rgba(0,22,70,.68),rgba(0,0,0,.08) 66%),var(--slide-image);background-size:cover;background-position:center}
+    .heroSlide{position:absolute;inset:0;display:block;opacity:0;visibility:hidden;transition:opacity .7s ease,visibility .7s ease;background-image:linear-gradient(90deg,rgba(35,29,25,.72),rgba(0,0,0,.10) 66%),var(--slide-image);background-size:cover;background-position:center}
     .heroSlide.is-active{position:relative;opacity:1;visibility:visible}
     .heroSlide .heroInner{position:relative;z-index:1}
     .heroArrow{position:absolute;top:50%;z-index:2;width:46px;height:46px;transform:translateY(-50%);border:1px solid rgba(255,255,255,.65);background:rgba(0,0,0,.22);color:#fff;font:300 42px/36px Arial;cursor:pointer;transition:.2s}
-    .heroArrow:hover{background:#162f82;border-color:#162f82}.heroArrowPrev{left:20px}.heroArrowNext{right:20px}
+    .heroArrow:hover{background:#a4461e;border-color:#a4461e}.heroArrowPrev{left:20px}.heroArrowNext{right:20px}
     .heroDots{position:absolute;z-index:2;bottom:20px;left:50%;display:flex;gap:9px;transform:translateX(-50%)}
     .heroDots button{width:34px;height:4px;padding:0;border:0;background:rgba(255,255,255,.5);cursor:pointer}.heroDots button.is-active{background:#fff}
-    .heroSlide .pill{background:#162f82;border:0;border-radius:0;color:#fff}.heroSlide h1{display:table;max-width:620px;margin:12px 0;padding:8px 12px;background:rgba(22,47,130,.91);color:#fff;font-size:clamp(32px,4vw,51px)}
+    .heroSlide .pill{background:#a4461e;border:0;border-radius:0;color:#fff}.heroSlide h1{display:table;max-width:620px;margin:12px 0;padding:8px 12px;background:rgba(45,36,31,.92);color:#fff;font-size:clamp(32px,4vw,51px)}
     .heroSlide .lead{max-width:600px;padding:9px 12px;background:rgba(255,255,255,.88);color:#252525}.heroSlide .heroCtas .btn{border-radius:0}
     @media (max-width:760px){.heroCarousel{min-height:440px}.heroArrow{width:36px;height:40px;font-size:34px}.heroArrowPrev{left:8px}.heroArrowNext{right:8px}.heroDots{bottom:12px}}
 
     /* Stalni izbor jezika, dostupan na svakoj sekciji stranice. */
     .langSwitcher{position:fixed;z-index:150;bottom:22px;left:22px;width:auto!important}
-    .langSwitcher .langBtn{width:auto!important;min-width:108px;justify-content:center;border:0;border-radius:999px;background:#162f82;color:#fff;box-shadow:0 10px 28px rgba(0,0,0,.28)}
+    .langSwitcher .langBtn{width:auto!important;min-width:108px;justify-content:center;border:0;border-radius:999px;background:#a4461e;color:#fff;box-shadow:0 10px 28px rgba(0,0,0,.28)}
     .langSwitcher .langMenu{top:auto;right:auto;bottom:calc(100% + 9px);left:0;min-width:180px}
     @media (max-width:600px){.langSwitcher{bottom:14px;left:14px}.langSwitcher .langBtn{min-width:94px}.langSwitcher .langMenu{min-width:170px}}
