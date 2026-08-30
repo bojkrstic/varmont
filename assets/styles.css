@@ -492,3 +492,9 @@
     .heroSlide .pill{background:#162f82;border:0;border-radius:0;color:#fff}.heroSlide h1{display:table;max-width:620px;margin:12px 0;padding:8px 12px;background:rgba(22,47,130,.91);color:#fff;font-size:clamp(32px,4vw,51px)}
     .heroSlide .lead{max-width:600px;padding:9px 12px;background:rgba(255,255,255,.88);color:#252525}.heroSlide .heroCtas .btn{border-radius:0}
     @media (max-width:760px){.heroCarousel{min-height:440px}.heroArrow{width:36px;height:40px;font-size:34px}.heroArrowPrev{left:8px}.heroArrowNext{right:8px}.heroDots{bottom:12px}}
+
+    /* Stalni izbor jezika, dostupan na svakoj sekciji stranice. */
+    .langSwitcher{position:fixed;z-index:150;bottom:22px;left:22px;width:auto!important}
+    .langSwitcher .langBtn{width:auto!important;min-width:108px;justify-content:center;border:0;border-radius:999px;background:#162f82;color:#fff;box-shadow:0 10px 28px rgba(0,0,0,.28)}
+    .langSwitcher .langMenu{top:auto;right:auto;bottom:calc(100% + 9px);left:0;min-width:180px}
+    @media (max-width:600px){.langSwitcher{bottom:14px;left:14px}.langSwitcher .langBtn{min-width:94px}.langSwitcher .langMenu{min-width:170px}}

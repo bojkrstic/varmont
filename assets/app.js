@@ -1,6 +1,3 @@
-    // year
-    document.getElementById("y").textContent = new Date().getFullYear();
-
     // Drawer
     const menuBtn = document.getElementById("menuBtn");
     const drawer = document.getElementById("drawer");

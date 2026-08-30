@@ -242,52 +242,52 @@
 
       projectsTitle:{ cyrl:"Пројекти", lat:"Projekti", en:"Projects", de:"Projekte" },
       projectsSub:{
-        cyrl:"Избор актуелних монтажа, хала и турбинских склопова из наше праксе.",
-        lat:"Izbor aktuelnih montaža, hala i turbinskih sklopova iz naše prakse.",
-        en:"Selection of recent installations, halls and turbine assemblies from our work.",
-        de:"Auswahl aktueller Montagen, Hallen und Turbinenbaugruppen aus unseren Projekten."
+        cyrl:"Избор радова из наше праксе: монтаже, индустријски склопови и машинско одржавање.",
+        lat:"Izbor radova iz naše prakse: montaže, industrijski sklopovi i mašinsko održavanje.",
+        en:"A selection of installations, industrial assemblies and maintenance work.",
+        de:"Auswahl an Montagen, industriellen Baugruppen und Instandhaltungsarbeiten."
       },
       projectsLatestBadge:{
-        cyrl:"2024 • Најновији радови",
-        lat:"2024 • Najnoviji radovi",
-        en:"2024 • Latest builds",
-        de:"2024 • Aktuelle Projekte"
+        cyrl:"Издвојени радови",
+        lat:"Izdvojeni radovi",
+        en:"Featured work",
+        de:"Ausgewählte Arbeiten"
       },
       projectsLatestTitle:{
-        cyrl:"Најновији радови",
-        lat:"Najnoviji radovi",
-        en:"Latest builds",
-        de:"Aktuelle Projekte"
+        cyrl:"Издвојени радови",
+        lat:"Izdvojeni radovi",
+        en:"Featured work",
+        de:"Ausgewählte Arbeiten"
       },
       projectsLatestDesc:{
-        cyrl:"Монтаже у току, нове линије и пројекти са већим распонима и алуминијумским завршницама.",
-        lat:"Montaže u toku, nove linije i projekti sa većim rasponima i aluminijumskim završnicama.",
-        en:"Active installations, new lines and large-span projects with aluminum finishes.",
-        de:"Laufende Montagen, neue Linien und Projekte mit großen Spannweiten und Aluminium-Finish."
+        cyrl:"Преглед радова из радионице и са терена.",
+        lat:"Pregled radova iz radionice i sa terena.",
+        en:"A look at workshop and field work.",
+        de:"Einblick in Werkstatt- und Außeneinsätze."
       },
       projectsLatestAria:{
-        cyrl:"Најновији пројекти",
-        lat:"Najnoviji projekti",
-        en:"Latest projects",
-        de:"Aktuelle Projekte"
+        cyrl:"Издвојени радови",
+        lat:"Izdvojeni radovi",
+        en:"Featured work",
+        de:"Ausgewählte Arbeiten"
       },
       projectsArchiveBadge:{
-        cyrl:"2018–2023",
-        lat:"2018–2023",
-        en:"2018–2023",
-        de:"2018–2023"
+        cyrl:"Референце",
+        lat:"Reference",
+        en:"References",
+        de:"Referenzen"
       },
       projectsArchiveTitle:{
-        cyrl:"Историјат пројеката",
-        lat:"Istorijat projekata",
-        en:"Project history",
-        de:"Projektchronik"
+        cyrl:"Референце",
+        lat:"Reference",
+        en:"References",
+        de:"Referenzen"
       },
       projectsArchiveDesc:{
-        cyrl:"Референце које су изграђивале репутацију — покривене рампе, сервисне платформе, индустријски погони.",
-        lat:"Reference koje su izgrađivale reputaciju — pokrivene rampe, servisne platforme, industrijski pogoni.",
-        en:"References that built the reputation—covered ramps, service platforms and industrial halls.",
-        de:"Referenzen, die den Ruf aufgebaut haben – überdachte Rampen, Serviceplattformen, Industrieanlagen."
+        cyrl:"Део пројеката и опреме на којима је Вармонт радио.",
+        lat:"Deo projekata i opreme na kojima je Varmont radio.",
+        en:"A selection of projects and equipment Varmont has worked on.",
+        de:"Ein Teil der Projekte und Anlagen, an denen Varmont gearbeitet hat."
       },
       projectsArchiveAria:{
         cyrl:"Претходни пројекти",
@@ -351,4 +351,3 @@
       waGreeting:{ cyrl:"Здраво, ја сам", lat:"Zdravo, ja sam", en:"Hello, this is", de:"Hallo, ich bin" },
       waPhone:{ cyrl:"Телефон", lat:"Telefon", en:"Phone", de:"Telefon" }
     };
-
