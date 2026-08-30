@@ -483,6 +483,9 @@
     /* Hero karusel */
     .heroCarousel{position:relative;min-height:430px;overflow:hidden;background:#111}
     .heroSlide{position:absolute;inset:0;display:block;opacity:0;visibility:hidden;transition:opacity .7s ease,visibility .7s ease;background-image:linear-gradient(90deg,rgba(35,29,25,.72),rgba(0,0,0,.10) 66%),var(--slide-image);background-size:cover;background-position:center}
+    .heroSlide:nth-child(1){background-image:linear-gradient(90deg,rgba(35,29,25,.72),rgba(0,0,0,.10) 66%),url("hero-welding.jpg")}
+    .heroSlide:nth-child(2){background-image:linear-gradient(90deg,rgba(35,29,25,.72),rgba(0,0,0,.10) 66%),url("turbine.jpg")}
+    .heroSlide:nth-child(3){background-image:linear-gradient(90deg,rgba(35,29,25,.72),rgba(0,0,0,.10) 66%),url("valjara.jpg")}
     .heroSlide.is-active{position:relative;opacity:1;visibility:visible}
     .heroSlide .heroInner{position:relative;z-index:1}
     .heroArrow{position:absolute;top:50%;z-index:2;width:46px;height:46px;transform:translateY(-50%);border:1px solid rgba(255,255,255,.65);background:rgba(0,0,0,.22);color:#fff;font:300 42px/36px Arial;cursor:pointer;transition:.2s}
