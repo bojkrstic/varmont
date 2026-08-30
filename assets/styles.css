@@ -492,8 +492,10 @@
     .heroArrow:hover{background:#a4461e;border-color:#a4461e}.heroArrowPrev{left:20px}.heroArrowNext{right:20px}
     .heroDots{position:absolute;z-index:2;bottom:20px;left:50%;display:flex;gap:9px;transform:translateX(-50%)}
     .heroDots button{width:34px;height:4px;padding:0;border:0;background:rgba(255,255,255,.5);cursor:pointer}.heroDots button.is-active{background:#fff}
-    .heroSlide .pill{background:#a4461e;border:0;border-radius:0;color:#fff}.heroSlide h1{display:table;max-width:620px;margin:12px 0;padding:8px 12px;background:rgba(45,36,31,.92);color:#fff;font-size:clamp(32px,4vw,51px)}
-    .heroSlide .lead{max-width:600px;padding:9px 12px;background:rgba(255,255,255,.88);color:#252525}.heroSlide .heroCtas .btn{border-radius:0}
+    .heroSlide .pill{background:#a4461e;border:0;border-radius:0;color:#fff}
+    .heroSlide h1{display:block;max-width:720px;margin:12px 0;padding:0;background:transparent;color:#fffdf8;font-family:Georgia,"Times New Roman",serif;font-size:clamp(44px,5vw,76px);font-weight:400;letter-spacing:-.055em;line-height:.92;text-shadow:0 3px 20px rgba(0,0,0,.56)}
+    .heroSlide .lead{max-width:590px;padding:0;background:transparent;color:#f0e9df;font-size:17px;line-height:1.65;text-shadow:0 2px 12px rgba(0,0,0,.72)}
+    .heroSlide .heroCtas .btn{border-radius:0}
     @media (max-width:760px){.heroCarousel{min-height:440px}.heroArrow{width:36px;height:40px;font-size:34px}.heroArrowPrev{left:8px}.heroArrowNext{right:8px}.heroDots{bottom:12px}}
 
     /* Jezička traka prema obrascu sa Crne Kobre: stalno dostupni direktni izbori. */
