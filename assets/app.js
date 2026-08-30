@@ -41,6 +41,7 @@
       en:"English",
       de:"Deutsch"
     };
+    const langShortLabels = { cyrl:"ЋИР", lat:"LAT", en:"EN", de:"DE" };
     let currentLang = supportedLangs.includes(storedLang) ? storedLang : "cyrl";
 
     function renderLangMenu(){
@@ -51,7 +52,8 @@
         btn.type = "button";
         btn.dataset.lang = code;
         btn.setAttribute("role","option");
-        btn.textContent = langNames[code] || code.toUpperCase();
+        btn.textContent = langShortLabels[code] || code.toUpperCase();
+        btn.setAttribute("aria-label", langNames[code] || code.toUpperCase());
         btn.addEventListener("click", (event) => {
           event.stopPropagation();
           applyLanguage(code);

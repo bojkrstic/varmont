@@ -493,9 +493,10 @@
     .heroSlide .lead{max-width:600px;padding:9px 12px;background:rgba(255,255,255,.88);color:#252525}.heroSlide .heroCtas .btn{border-radius:0}
     @media (max-width:760px){.heroCarousel{min-height:440px}.heroArrow{width:36px;height:40px;font-size:34px}.heroArrowPrev{left:8px}.heroArrowNext{right:8px}.heroDots{bottom:12px}}
 
-    /* Stalni izbor jezika kao diskretan bočni element na desnoj strani. */
-    .langSwitcher{position:fixed;z-index:150;top:50%;right:0;bottom:auto;left:auto;width:auto!important;transform:translateY(-50%)}
-    .langSwitcher .langBtn{width:auto!important;min-width:108px;justify-content:center;border:0;border-radius:999px 0 0 999px;background:#a4461e;color:#fff;box-shadow:0 10px 28px rgba(0,0,0,.28)}
-    .langSwitcher .langMenu{top:50%;right:calc(100% + 9px);bottom:auto;left:auto;min-width:180px;transform:translateY(-50%) translateX(4px)}
-    .langSwitcher.open .langMenu{transform:translateY(-50%) translateX(0)}
-    @media (max-width:600px){.langSwitcher{top:auto;right:0;bottom:18px;transform:none}.langSwitcher .langBtn{min-width:94px}.langSwitcher .langMenu{top:auto;right:calc(100% + 8px);bottom:0;min-width:170px;transform:translateX(4px)}.langSwitcher.open .langMenu{transform:translateX(0)}}
+    /* Jezička traka prema obrascu sa Crne Kobre: stalno dostupni direktni izbori. */
+    .langSwitcher{position:fixed;right:18px;bottom:18px;left:auto;top:auto;z-index:150;width:auto!important;transform:none;display:flex;background:#1f1c1a;border:1px solid rgba(255,255,255,.22);box-shadow:0 8px 25px rgba(0,0,0,.2)}
+    .langSwitcher .langBtn{display:none}
+    .langSwitcher .langMenu{position:static;display:flex;flex-direction:row;gap:0;min-width:0;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;opacity:1;pointer-events:auto;transform:none}
+    .langSwitcher .langMenu button{width:auto;padding:10px 11px;border-radius:0;background:transparent;color:#fff;text-align:center;font-size:10px;letter-spacing:.08em;font-weight:700}
+    .langSwitcher .langMenu button:hover,.langSwitcher .langMenu button.active{background:#a4461e;color:#fff}
+    @media (max-width:600px){.langSwitcher{right:12px;bottom:12px}.langSwitcher .langMenu{min-width:0}.langSwitcher .langMenu button{padding:9px 9px}}
