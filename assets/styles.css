@@ -460,3 +460,22 @@
       .mapCard{min-height:280px}
       .mapEmbed{min-height:280px}
     }
+
+    /* Vizuelni pravac inspirisan originalnom Varmont početnom stranicom. */
+    :root{--bg:#fff;--bg2:#f4f4f4;--text:#252525;--muted:#656565;--brand:#162f82;--brand2:#218dbf;--radius:0px;--shadow:0 0 0 transparent}
+    body{background:#fff;font-family:"Trebuchet MS",Arial,sans-serif}
+    header{position:relative;background:#f6f6f6;border:0;box-shadow:none}
+    header::before{content:"Profesionalno zavarivanje · Pirot · info@varmont.rs";display:block;padding:7px 18px;color:#d4d4d4;background:#191919;text-align:center;font-size:11px;letter-spacing:.2px}
+    .nav{position:relative;flex-direction:column;padding:4px 18px 0;gap:0}
+    .brand{order:0}.logo{width:150px;height:76px;border-radius:0;background:transparent url("varmont-wordmark.png") center/contain no-repeat;box-shadow:none}
+    nav{order:1}nav ul{gap:0}nav a{color:#333;padding:10px 15px;border-radius:0;font-size:13px}nav a:hover{color:#fff;background:#162f82}
+    .actions{position:absolute;right:18px;top:25px}.actions .btn{padding:7px 9px;font-size:12px}
+    .hero{padding:0}.hero .wrap{max-width:none;padding:0}.heroShell{border:0;border-radius:0;box-shadow:none}
+    .heroBg{background:linear-gradient(90deg,rgba(0,22,70,.54),rgba(0,0,0,.04) 62%),url("hero-welding.jpg");background-position:center}
+    .heroInner{max-width:1160px;min-height:430px;margin:0 auto;padding:86px 28px 42px;display:block}
+    .heroShell .pill{background:#162f82;border:0;border-radius:0}.heroShell h1{display:table;max-width:620px;margin:12px 0;padding:8px 12px;background:rgba(22,47,130,.91);color:#fff;font-size:clamp(32px,4vw,51px)}
+    .heroShell .lead{max-width:600px;padding:9px 12px;background:rgba(255,255,255,.88);color:#252525}.heroCtas .btn{border-radius:0}.kpiGrid{display:none}
+    .section{padding:52px 0}.section:nth-of-type(even){background:#f4f4f4}.section h2{margin-bottom:12px;color:#363636;text-align:center;font-size:31px;font-weight:400}.section > .wrap > .sub{text-align:center;max-width:740px;margin:0 auto 26px}
+    .grid3{gap:0}.card,.era{border:0;border-radius:0;box-shadow:none;background:#fff}.svc{border-right:1px solid #c8c8c8}.svc:last-child{border-right:0}.svcTop{justify-content:center;text-align:center;min-height:76px}.svcBody{text-align:center}.icon{border-radius:0;background:#162f82}.svcImg{height:190px}
+    .projectHistory{gap:34px}.era{padding:0}.eraHeader{text-align:center;align-items:center}.eraBadge{border-radius:0;background:#162f82;color:#fff}.gallery{gap:5px}.ph{border-radius:0}.ctaBand{border-radius:0;background:#162f82}.mapCard{border-radius:0}.footer{background:#191919;border:0;color:#cfcfcf;padding:28px 0}.footer .btn{border-radius:0}
+    @media (max-width: 760px){.actions{position:static;margin:8px 0 10px}.nav{padding:4px 12px 10px}.heroInner{min-height:440px;padding:62px 18px 30px}.grid3{gap:12px}.svc{border:0}}
