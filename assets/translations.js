@@ -59,9 +59,9 @@
       slide2Primary: { cyrl:"Погледај радове", lat:"Pogledaj radove", en:"View our work", de:"Arbeiten ansehen" },
       slide2Secondary: { cyrl:"Контакт", lat:"Kontakt", en:"Contact", de:"Kontakt" },
 
-      slide3Pill: { cyrl:"Монтажа и одржавање", lat:"Montaža i održavanje", en:"Installation and maintenance", de:"Montage und Instandhaltung" },
-      slide3Title: { cyrl:"Један партнер <br/>од захтева до решења.", lat:"Jedan partner <br/>od zahteva do rešenja.", en:"One partner <br/>from request to solution.", de:"Ein Partner <br/>von der Anfrage bis zur Lösung." },
-      slide3Lead: { cyrl:"Демонтажа, монтажа, дислокација машина и репаратурно машинско одржавање.", lat:"Demontaža, montaža, dislokacija mašina i reparaturno mašinsko održavanje.", en:"Dismantling, installation, relocation of machinery and repair maintenance.", de:"Demontage, Montage, Verlagerung von Maschinen und Instandsetzung." },
+      slide3Pill: { cyrl:"Машински делови", lat:"Mašinski delovi", en:"Machine parts", de:"Maschinenteile" },
+      slide3Title: { cyrl:"Израда делова <br/>по документацији.", lat:"Izrada delova <br/>po dokumentaciji.", en:"Parts made <br/>to specification.", de:"Fertigung <br/>nach Dokumentation." },
+      slide3Lead: { cyrl:"Машински делови и склопови уз контролу мера, квалитета и рокова испоруке.", lat:"Mašinski delovi i sklopovi uz kontrolu mera, kvaliteta i rokova isporuke.", en:"Machine parts and assemblies with dimensional and quality control and reliable delivery dates.", de:"Maschinenteile und Baugruppen mit Maß- und Qualitätskontrolle sowie verlässlichen Lieferterminen." },
       slide3Primary: { cyrl:"Затражи понуду", lat:"Zatraži ponudu", en:"Request a quote", de:"Angebot anfordern" },
       slide3Secondary: { cyrl:"Капацитети", lat:"Kapaciteti", en:"Capacity", de:"Kapazitäten" },
       slidePrevious: { cyrl:"Претходни слајд", lat:"Prethodni slajd", en:"Previous slide", de:"Vorherige Folie" },
@@ -70,7 +70,7 @@
       metaAddress: { cyrl:"📍 Улица Српских владара 431, Пирот", lat:"📍 Ulica Srpskih vladara 431, Pirot", en:"📍 Ulica Srpskih vladara 431, Pirot", de:"📍 Ulica Srpskih vladara 431, Pirot" },
       metaHall: { cyrl:"🏭 5.200 m² производна хала", lat:"🏭 5.200 m² proizvodna hala", en:"🏭 5,200 m² production hall", de:"🏭 5.200 m² Produktionshalle" },
       metaCrane: { cyrl:"🏗 Мостне дизалице до 10t", lat:"🏗 Mostne dizalice do 10t", en:"🏗 Bridge cranes up to 10t", de:"🏗 Brückenkrane bis 10 t" },
-      metaPhone: { cyrl:"📞 +381 63 190 0120", lat:"📞 +381 63 190 0120", en:"📞 +381 63 190 0120", de:"📞 +381 63 190 0120" },
+      metaPhone: { cyrl:"📞 +381 65 322 7105", lat:"📞 +381 65 322 7105", en:"📞 +381 65 322 7105", de:"📞 +381 65 322 7105" },
 
       kpi1Title:{ cyrl:"Пројектовање", lat:"Projektovanje", en:"Engineering", de:"Planung" },
       kpi1Desc:{
@@ -121,13 +121,13 @@
         en:"Custom design, fabrication and installation. Galvanized/painted with drainage and roofing of your choice.",
         de:"Planung, Fertigung und Montage nach Maß. Verzinkt/lackiert, mit Entwässerung und Wunschdeckung."
       },
-      svc2Title:{ cyrl:"Рад у радионици и на терену", lat:"Industrijske turbine", en:"Industrial turbines", de:"Industrieturbinen" },
-      svc2Tag:{ cyrl:"електране • цевоводи • мостови", lat:"rotor • balans • testiranje", en:"rotor • balancing • testing", de:"Rotor • Auswuchten • Tests" },
+      svc2Title:{ cyrl:"Машинска обрада метала", lat:"Mašinska obrada metala", en:"Metal machining", de:"Metallbearbeitung" },
+      svc2Tag:{ cyrl:"делови • фланшеви • склопови", lat:"delovi • prirubnice • sklopovi", en:"parts • flanges • assemblies", de:"Teile • Flansche • Baugruppen" },
       svc2Desc:{
-        cyrl:"Изводимо радове на електранама, гасоводима, цевоводима, мостовима, котловима, резервоарима и другим објектима.",
-        lat:"Izrada turbinskih komponenti i sklopova, kontrola geometrije i priprema za integraciju u sistem.",
-        en:"Manufacture of turbine components and assemblies, geometry control and integration-ready delivery.",
-        de:"Fertigung von Turbinenkomponenten und -baugruppen, Geometrieprüfung und Integrationsvorbereitung."
+        cyrl:"Израђујемо машинске делове и склопове према техничкој документацији, уз контролу мера, квалитета и рокова испоруке.",
+        lat:"Izrađujemo mašinske delove i sklopove prema tehničkoj dokumentaciji, uz kontrolu mera, kvaliteta i rokova isporuke.",
+        en:"We manufacture machine parts and assemblies to technical documentation, with dimensional and quality control and reliable delivery dates.",
+        de:"Wir fertigen Maschinenteile und Baugruppen nach technischer Dokumentation – mit Maß- und Qualitätskontrolle sowie verlässlichen Lieferterminen."
       },
       svc3Title:{ cyrl:"Монтажа и одржавање", lat:"Čelične konstrukcije", en:"Steel structures", de:"Stahlkonstruktionen" },
       svc3Tag:{ cyrl:"демонтажа • монтажа • сервис", lat:"hale • platforme • nosači", en:"halls • platforms • supports", de:"Hallen • Plattformen • Träger" },
@@ -280,10 +280,10 @@
         de:"Ausgewählte Arbeiten"
       },
       projectsLatestDesc:{
-        cyrl:"Преглед радова из радионице и са терена.",
-        lat:"Pregled radova iz radionice i sa terena.",
-        en:"A look at workshop and field work.",
-        de:"Einblick in Werkstatt- und Außeneinsätze."
+        cyrl:"Избор реализованих индустријских пројеката.",
+        lat:"Izbor realizovanih industrijskih projekata.",
+        en:"A selection of completed industrial projects.",
+        de:"Eine Auswahl realisierter Industrieprojekte."
       },
       projectsLatestAria:{
         cyrl:"Издвојени радови",
@@ -315,14 +315,26 @@
         en:"Previous projects",
         de:"Frühere Projekte"
       },
+      referencesAria:{
+        cyrl:"Пословне референце",
+        lat:"Poslovne reference",
+        en:"Business references",
+        de:"Geschäftsreferenzen"
+      },
+      referenceWebsite:{
+        cyrl:"Посети сајт ↗",
+        lat:"Poseti sajt ↗",
+        en:"Visit website ↗",
+        de:"Website besuchen ↗"
+      },
 
       contactTitle:{ cyrl:"Контакт & локација", lat:"Kontakt & lokacija", en:"Contact & location", de:"Kontakt & Standort" },
       contactBusiness:{ cyrl:"Вармонт — Производни погон", lat:"Varmont — Proizvodni pogon", en:"Varmont — Production plant", de:"Varmont — Produktionswerk" },
       contactDetails:{
-        cyrl:"📍 Адреса: <span class=\"tag\">Улица Српских владара 431, Пирот</span><br/>🏭 Хала: <span class=\"tag\">5.200 m² — мостне дизалице 10t</span><br/>🕒 Радно време: <span class=\"tag\">Пон–Пет 07:00–17:00ч</span><br/>🕒 Субота: <span class=\"tag\">08:00–13:00ч</span><br/>📞 Телефон: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ Е-пошта: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">пошаљи поруку</a>",
-        lat:"📍 Adresa: <span class=\"tag\">Ulica Srpskih vladara 431, Pirot</span><br/>🏭 Hala: <span class=\"tag\">5.200 m² — mostne dizalice 10t</span><br/>🕒 Radno vreme: <span class=\"tag\">Pon–Pet 07:00–17:00č</span><br/>🕒 Subota: <span class=\"tag\">08:00–13:00č</span><br/>📞 Telefon: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ E-pošta: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">pošalji poruku</a>",
-        en:"📍 Address: <span class=\"tag\">Ulica Srpskih vladara 431, Pirot</span><br/>🏭 Hall: <span class=\"tag\">5,200 m² — bridge cranes 10t</span><br/>🕒 Working hours: <span class=\"tag\">Mon–Fri 07:00–17:00</span><br/>🕒 Saturday: <span class=\"tag\">08:00–13:00</span><br/>📞 Phone: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ Email: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">send a message</a>",
-        de:"📍 Adresse: <span class=\"tag\">Ulica Srpskih vladara 431, Pirot</span><br/>🏭 Halle: <span class=\"tag\">5.200 m² — Brückenkrane 10 t</span><br/>🕒 Arbeitszeit: <span class=\"tag\">Mo–Fr 07:00–17:00</span><br/>🕒 Samstag: <span class=\"tag\">08:00–13:00</span><br/>📞 Telefon: <a class=\"tag\" href=\"tel:+381631900120\">+381 63 190 0120</a><br/>✉ E-Mail: <a class=\"tag\" href=\"mailto:prodaja@varmont.rs\">prodaja@varmont.rs</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381631900120\" target=\"_blank\" rel=\"noreferrer\">Nachricht senden</a>"
+        cyrl:"📍 Адреса: <span class=\"tag\">Улица Српских владара 431, Пирот</span><br/>🏭 Хала: <span class=\"tag\">5.200 m² — мостне дизалице 10t</span><br/>🕒 Радно време: <span class=\"tag\">Пон–Пет 07:00–17:00ч</span><br/>🕒 Субота: <span class=\"tag\">08:00–13:00ч</span><br/>📞 Телефон: <a class=\"tag\" href=\"tel:+381653227105\">+381 65 322 7105</a><br/>✉ Е-пошта: <a class=\"tag\" href=\"mailto:info.varmont@gmail.com\">info.varmont@gmail.com</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381653227105\" target=\"_blank\" rel=\"noreferrer\">пошаљи поруку</a>",
+        lat:"📍 Adresa: <span class=\"tag\">Ulica Srpskih vladara 431, Pirot</span><br/>🏭 Hala: <span class=\"tag\">5.200 m² — mostne dizalice 10t</span><br/>🕒 Radno vreme: <span class=\"tag\">Pon–Pet 07:00–17:00č</span><br/>🕒 Subota: <span class=\"tag\">08:00–13:00č</span><br/>📞 Telefon: <a class=\"tag\" href=\"tel:+381653227105\">+381 65 322 7105</a><br/>✉ E-pošta: <a class=\"tag\" href=\"mailto:info.varmont@gmail.com\">info.varmont@gmail.com</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381653227105\" target=\"_blank\" rel=\"noreferrer\">pošalji poruku</a>",
+        en:"📍 Address: <span class=\"tag\">Ulica Srpskih vladara 431, Pirot</span><br/>🏭 Hall: <span class=\"tag\">5,200 m² — bridge cranes 10t</span><br/>🕒 Working hours: <span class=\"tag\">Mon–Fri 07:00–17:00</span><br/>🕒 Saturday: <span class=\"tag\">08:00–13:00</span><br/>📞 Phone: <a class=\"tag\" href=\"tel:+381653227105\">+381 65 322 7105</a><br/>✉ Email: <a class=\"tag\" href=\"mailto:info.varmont@gmail.com\">info.varmont@gmail.com</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381653227105\" target=\"_blank\" rel=\"noreferrer\">send a message</a>",
+        de:"📍 Adresse: <span class=\"tag\">Ulica Srpskih vladara 431, Pirot</span><br/>🏭 Halle: <span class=\"tag\">5.200 m² — Brückenkrane 10 t</span><br/>🕒 Arbeitszeit: <span class=\"tag\">Mo–Fr 07:00–17:00</span><br/>🕒 Samstag: <span class=\"tag\">08:00–13:00</span><br/>📞 Telefon: <a class=\"tag\" href=\"tel:+381653227105\">+381 65 322 7105</a><br/>✉ E-Mail: <a class=\"tag\" href=\"mailto:info.varmont@gmail.com\">info.varmont@gmail.com</a><br/>💬 WhatsApp: <a class=\"tag\" href=\"https://wa.me/381653227105\" target=\"_blank\" rel=\"noreferrer\">Nachricht senden</a>"
       },
       contactPhoneCTA:{ cyrl:"Позови", lat:"Pozovi", en:"Call", de:"Anrufen" },
       contactMailCTA:{ cyrl:"Пошаљи пројекат", lat:"Pošalji projekat", en:"Send project", de:"Projekt senden" },

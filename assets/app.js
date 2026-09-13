@@ -170,7 +170,7 @@
           message
         ].filter(Boolean).join("\n");
 
-        const url = `https://wa.me/381631900120?text=${encodeURIComponent(composed)}`;
+        const url = `https://wa.me/381653227105?text=${encodeURIComponent(composed)}`;
         window.open(url, "_blank", "noopener");
         quickForm.reset();
       });
