@@ -113,29 +113,37 @@
         en:"Structured so clients instantly see what you build and deliver.",
         de:"Klar strukturiert – damit Kunden sofort sehen, was ihr liefert."
       },
-      svc1Title:{ cyrl:"Заваривање", lat:"Metalne nadstrešnice", en:"Metal canopies", de:"Metallüberdachungen" },
-      svc1Tag:{ cyrl:"TIG • MIG/MAG • REL • EPP", lat:"parking • ulazi • logistika", en:"parking • entrances • logistics", de:"Parkplätze • Eingänge • Logistik" },
+      svc1Title:{ cyrl:"Заваривање", lat:"Zavarivanje", en:"Welding", de:"Schweißen" },
+      svc1Tag:{ cyrl:"TIG • MIG/MAG • REL • EPP", lat:"TIG • MIG/MAG • REL • EPP", en:"TIG • MIG/MAG • REL • EPP", de:"TIG • MIG/MAG • REL • EPP" },
       svc1Desc:{
         cyrl:"Аргонско (TIG), CO₂ (MIG/MAG), електро (REL) и електролучно заваривање под заштитом прашка (EPP).",
-        lat:"Projektovanje, izrada i montaža po meri. Pocinkovano/farbano, sa odvodnjom i pokrivačem po izboru.",
-        en:"Custom design, fabrication and installation. Galvanized/painted with drainage and roofing of your choice.",
-        de:"Planung, Fertigung und Montage nach Maß. Verzinkt/lackiert, mit Entwässerung und Wunschdeckung."
+        lat:"Argonsko (TIG), CO₂ (MIG/MAG), elektro (REL) i elektrolučno zavarivanje pod zaštitom praška (EPP).",
+        en:"TIG, MIG/MAG, REL and submerged arc welding (EPP).",
+        de:"WIG-, MIG/MAG-, REL- und Unterpulverschweißen (EPP)."
       },
       svc2Title:{ cyrl:"Машинска обрада метала", lat:"Mašinska obrada metala", en:"Metal machining", de:"Metallbearbeitung" },
-      svc2Tag:{ cyrl:"делови • фланшеви • склопови", lat:"delovi • prirubnice • sklopovi", en:"parts • flanges • assemblies", de:"Teile • Flansche • Baugruppen" },
+      svc2Tag:{ cyrl:"токарење • глодање • бушење", lat:"tokarenje • glodanje • bušenje", en:"turning • milling • drilling", de:"Drehen • Fräsen • Bohren" },
       svc2Desc:{
-        cyrl:"Израђујемо машинске делове и склопове према техничкој документацији, уз контролу мера, квалитета и рокова испоруке.",
-        lat:"Izrađujemo mašinske delove i sklopove prema tehničkoj dokumentaciji, uz kontrolu mera, kvaliteta i rokova isporuke.",
-        en:"We manufacture machine parts and assemblies to technical documentation, with dimensional and quality control and reliable delivery dates.",
-        de:"Wir fertigen Maschinenteile und Baugruppen nach technischer Dokumentation – mit Maß- und Qualitätskontrolle sowie verlässlichen Lieferterminen."
+        cyrl:"Прецизна обрада металних делова према документацији и задатим толеранцијама.",
+        lat:"Precizna obrada metalnih delova prema dokumentaciji i zadatim tolerancijama.",
+        en:"Precision machining of metal parts to documentation and specified tolerances.",
+        de:"Präzise Bearbeitung von Metallteilen nach Dokumentation und vorgegebenen Toleranzen."
       },
-      svc3Title:{ cyrl:"Монтажа и одржавање", lat:"Čelične konstrukcije", en:"Steel structures", de:"Stahlkonstruktionen" },
-      svc3Tag:{ cyrl:"демонтажа • монтажа • сервис", lat:"hale • platforme • nosači", en:"halls • platforms • supports", de:"Hallen • Plattformen • Träger" },
+      svc3Title:{ cyrl:"Израда челичних конструкција", lat:"Izrada čeličnih konstrukcija", en:"Steel structure fabrication", de:"Fertigung von Stahlkonstruktionen" },
+      svc3Tag:{ cyrl:"хале • платформе • носачи", lat:"hale • platforme • nosači", en:"halls • platforms • supports", de:"Hallen • Plattformen • Träger" },
       svc3Desc:{
-        cyrl:"Пружамо услуге дислокације, демонтаже и монтаже машина и производних линија, као и репаратурно машинско одржавање.",
-        lat:"Konstrukcije za industriju i građevinu: sečenje, zavarivanje, probna montaža i transport na lokaciju.",
-        en:"Structures for industry and construction: cutting, welding, trial assembly and transport to site.",
-        de:"Konstruktionen für Industrie und Bau: Zuschnitt, Schweißen, Probelmontage und Transport zur Baustelle."
+        cyrl:"Израђујемо челичне конструкције по пројекту — од припреме материјала и сечења до заваривања и заштите.",
+        lat:"Izrađujemo čelične konstrukcije po projektu — od pripreme materijala i sečenja do zavarivanja i zaštite.",
+        en:"We fabricate steel structures to the project specification, from material preparation and cutting to welding and protection.",
+        de:"Wir fertigen Stahlkonstruktionen nach Projektvorgabe – von Materialvorbereitung und Zuschnitt bis zu Schweißen und Schutz."
+      },
+      svc4Title:{ cyrl:"Израда машинских делова", lat:"Izrada mašinskih delova", en:"Machine parts fabrication", de:"Fertigung von Maschinenteilen" },
+      svc4Tag:{ cyrl:"осовине • чауре • прирубнице", lat:"osovine • čaure • prirubnice", en:"shafts • bushings • flanges", de:"Wellen • Buchsen • Flansche" },
+      svc4Desc:{
+        cyrl:"Производња делова и склопова по техничкој документацији, уз прецизну контролу мера и квалитета.",
+        lat:"Proizvodnja delova i sklopova po tehničkoj dokumentaciji, uz preciznu kontrolu mera i kvaliteta.",
+        en:"Production of parts and assemblies to technical documentation, with precise dimensional and quality control.",
+        de:"Fertigung von Teilen und Baugruppen nach technischer Dokumentation, mit präziser Maß- und Qualitätskontrolle."
       },
 
       capTitle:{
