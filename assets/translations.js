@@ -158,42 +158,41 @@
         en:"Build confidence: show what's in the hall and what you can truly deliver.",
         de:"Abschnitt, der Vertrauen schafft: Was steht in der Halle und was könnt ihr liefern."
       },
-      capLeftTitle:{ cyrl:"Производни погон", lat:"Proizvodni pogon", en:"Production hall", de:"Produktion" },
+      capLeftTitle:{ cyrl:"Машински парк", lat:"Mašinski park", en:"Machine park", de:"Maschinenpark" },
       capLeftDesc:{
-        cyrl:"Организована производња у једном комплексу за краће рокове и контролу квалитета.",
-        lat:"Organizovana proizvodnja u jednom kompleksu za kraće rokove i kontrolu kvaliteta.",
-        en:"Organized production inside one complex for shorter lead times and better QC.",
-        de:"Organisierte Fertigung in einem Komplex für kürzere Termine und Qualitätssicherung."
+        cyrl:"Опрема за сечење, машинску обраду, савијање и ваљање метала.",
+        lat:"Oprema za sečenje, mašinsku obradu, savijanje i valjanje metala.",
+        en:"Equipment for cutting, machining, bending and rolling metal.",
+        de:"Ausstattung zum Schneiden, Bearbeiten, Biegen und Walzen von Metall."
       },
 
-      capItem1Title:{ cyrl:"Сечење и припрема", lat:"Sečenje i priprema", en:"Cutting & prep", de:"Zuschnitt & Vorbereitung" },
+      capItem1Title:{ cyrl:"CNC плазма и гасно сечење", lat:"CNC plazma i gasno sečenje", en:"CNC plasma & gas cutting", de:"CNC-Plasma- und Brennschneiden" },
       capItem1Desc:{
-        cyrl:"Профили, лимови, припрема спојева и паковање по фазама монтаже.",
-        lat:"Profili, limovi, priprema spojeva i pakovanje po fazama montaže.",
-        en:"Profiles, plates, joint prep and staging per installation phase.",
-        de:"Profile, Bleche, Fugenbearbeitung und Verpackung nach Montageschritten."
+        cyrl:"Дебљина до 200 mm; плоче до 2.000 × 6.000 mm.",
+        lat:"Debljina do 200 mm; ploče do 2.000 × 6.000 mm.",
+        en:"Up to 200 mm thickness; plates up to 2,000 × 6,000 mm.",
+        de:"Bis 200 mm Materialstärke; Platten bis 2.000 × 6.000 mm."
       },
-      capItem2Title:{ cyrl:"Заваривање", lat:"Zavarivanje", en:"Welding", de:"Schweißen" },
+      capItem2Title:{ cyrl:"Мануелни хоризонтални стругови", lat:"Manuelni horizontalni strugovi", en:"Manual horizontal lathes", de:"Manuelle Horizontaldrehmaschinen" },
       capItem2Desc:{
-        cyrl:"Сертифициране процедуре, рад са различитим материјалима и контроле спојева.",
-        lat:"Sertificirane procedure, rad sa različitim materijalima i kontrole spojeva.",
-        en:"Certified procedures, various materials and weld inspections.",
-        de:"Zertifizierte Verfahren, verschiedene Materialien und Nahtprüfungen."
+        cyrl:"PA 30 × 3.000 и PA 1.000 × 6.000.", lat:"PA 30 × 3.000 i PA 1.000 × 6.000.", en:"PA 30 × 3,000 and PA 1,000 × 6,000.", de:"PA 30 × 3.000 und PA 1.000 × 6.000."
       },
-      capItem3Title:{ cyrl:"Машинска обрада", lat:"Mašinska obrada", en:"Machining", de:"Zerspanung" },
+      capItem3Title:{ cyrl:"Мануелни борверк BH 100", lat:"Manuelni borverk BH 100", en:"Manual boring mill BH 100", de:"Manuelles Bohrwerk BH 100" },
       capItem3Desc:{
-        cyrl:"Обрада кључних делова/фланшева по документацији и толеранцијама.",
-        lat:"Obrada ključnih delova/flanševa po dokumentaciji i tolerancijama.",
-        en:"Critical parts/flanges machined according to documentation and tolerances.",
-        de:"Bearbeitung kritischer Teile/Flansche gemäß Unterlagen und Toleranzen."
+        cyrl:"Радна површина 1.000 × 1.000 mm.", lat:"Radna površina 1.000 × 1.000 mm.", en:"Working area 1,000 × 1,000 mm.", de:"Arbeitsfläche 1.000 × 1.000 mm."
       },
-      capItem4Title:{ cyrl:"Монтажа и сервис", lat:"Montaža i servis", en:"Installation & service", de:"Montage & Service" },
+      capItem4Title:{ cyrl:"CNC глодалица Hermle", lat:"CNC glodalica Hermle", en:"CNC milling machine Hermle", de:"CNC-Fräsmaschine Hermle" },
       capItem4Desc:{
-        cyrl:"Теренске екипе, логистика, дизалице и пуштање у рад.",
-        lat:"Terenske ekipe, logistika, dizalice i puštanje u rad.",
-        en:"Field crews, logistics, cranes and commissioning.",
-        de:"Montageteams, Logistik, Krane und Inbetriebnahme."
+        cyrl:"Радна површина 600 × 900 × 700 mm.", lat:"Radna površina 600 × 900 × 700 mm.", en:"Working area 600 × 900 × 700 mm.", de:"Arbeitsfläche 600 × 900 × 700 mm."
       },
+      capItem5Title:{ cyrl:"CNC глодалица Hedelius", lat:"CNC glodalica Hedelius", en:"CNC milling machine Hedelius", de:"CNC-Fräsmaschine Hedelius" },
+      capItem5Desc:{ cyrl:"Радна површина 3.500 × 1.000 × 1.000 mm.", lat:"Radna površina 3.500 × 1.000 × 1.000 mm.", en:"Working area 3,500 × 1,000 × 1,000 mm.", de:"Arbeitsfläche 3.500 × 1.000 × 1.000 mm." },
+      capItem6Title:{ cyrl:"CNC борверк", lat:"CNC borverk", en:"CNC boring mill", de:"CNC-Bohrwerk" },
+      capItem6Desc:{ cyrl:"Радна површина 3.000 × 2.000 mm.", lat:"Radna površina 3.000 × 2.000 mm.", en:"Working area 3,000 × 2,000 mm.", de:"Arbeitsfläche 3.000 × 2.000 mm." },
+      capItem7Title:{ cyrl:"Преса за савијање лимова", lat:"Presa za savijanje limova", en:"Sheet metal bending press", de:"Abkantpresse" },
+      capItem7Desc:{ cyrl:"Радна дужина 3.000 mm; сила притиска 200 t.", lat:"Radna dužina 3.000 mm; sila pritiska 200 t.", en:"Working length 3,000 mm; press force 200 t.", de:"Arbeitslänge 3.000 mm; Presskraft 200 t." },
+      capItem8Title:{ cyrl:"Четвороваљак", lat:"Četvorovaljak", en:"Four-roll plate roller", de:"Vierwalzen-Rundbiegemaschine" },
+      capItem8Desc:{ cyrl:"Радна ширина 2.000 mm; дебљина лима до 20 mm.", lat:"Radna širina 2.000 mm; debljina lima do 20 mm.", en:"Working width 2,000 mm; plate thickness up to 20 mm.", de:"Arbeitsbreite 2.000 mm; Blechstärke bis 20 mm." },
 
       capRightTitle:{ cyrl:"Кључне бројке", lat:"Ključne brojke", en:"Key figures", de:"Kennzahlen" },
       capRightDesc:{
