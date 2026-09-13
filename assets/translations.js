@@ -122,7 +122,7 @@
         de:"WIG-, MIG/MAG-, REL- und Unterpulverschweißen (EPP)."
       },
       svc2Title:{ cyrl:"Машинска обрада метала", lat:"Mašinska obrada metala", en:"Metal machining", de:"Metallbearbeitung" },
-      svc2Tag:{ cyrl:"токарење • глодање • бушење", lat:"tokarenje • glodanje • bušenje", en:"turning • milling • drilling", de:"Drehen • Fräsen • Bohren" },
+      svc2Tag:{ cyrl:"стругање • глодање • бушење", lat:"struganje • glodanje • bušenje", en:"turning • milling • drilling", de:"Drehen • Fräsen • Bohren" },
       svc2Desc:{
         cyrl:"Прецизна обрада металних делова према документацији и задатим толеранцијама.",
         lat:"Precizna obrada metalnih delova prema dokumentaciji i zadatim tolerancijama.",
